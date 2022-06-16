@@ -14,6 +14,9 @@ body
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
 }
 
 
@@ -63,6 +66,7 @@ li a:hover
 <h1>Menu</h1>
 <p> </p>
 
+
 <ul>
   <li>
   <a href="https://toyhou.se/Cootsy">Home
@@ -81,6 +85,29 @@ li a:hover
 </ul>
 
 
+
+<!--
+<audio 
+  autoplay="1" controls="">
+	<source src="horse.ogg" type="audio/ogg">
+	<source src="https://feen.us/3ou8.mp3" type="audio/mpeg">&nbsp;Your browser does not support the audio element.
+</audio>
+-->
+
+<!--
+<p>
+  <span
+    class="fr-video fr-fvc fr-dvi fr-draggable" 
+    contenteditable="false">
+    <iframe
+      width="420"
+      height="315"
+      src="https://www.youtube.com/embed/MPmD6hFaomk?autoplay=0&mute=0&controls=1&loop=0"> 
+    </iframe>
+  </span>
+</p>
+-->
+
 <p>
   <span
     class="fr-video fr-fvc fr-dvi fr-draggable" 
@@ -93,10 +120,60 @@ li a:hover
   </span>
 </p>
 
+<!--  style="background-color:black;color:white;padding:20px;"   -->
 
+<h2 style="font-size:2vw;">Menu</h2>
+<div 
+   
+  >
+
+	<ul>
+		<li><a href="">Home</a></li>
+		<li><a href="https://toyhou.se/8671807.cootsy/gallery">Sona</a></li>
+		<li><a href="https://toyhou.se/Cootsy/characters">OCS</a></li>
+		<li><a href="#about">About</a></li>
+	</ul>
+  
+    <img 
+      src="https://feen.us/214mit.png" 
+      width="830" 
+      height="585" 
+      alt="Stickman" 
+      style="min-width: 100%;" 
+      class="fr-fic fr-dii"
+    >
+  
+</div>
+
+<div style="position:relative;">
+  <div style="opacity:0.5;position:absolute;left:50px;top:-30px;width:300px;height:150px;background-color:#40B3DF"></div>
+  <div style="opacity:0.3;position:absolute;left:120px;top:20px;width:100px;height:170px;background-color:#73AD21"></div>
+  <div style="margin-top:30px;width:360px;height:130px;padding:20px;border-radius:10px;border:10px solid #EE872A;font-size:120%;">
+    <h1>CSS = Styles and Colors</h1>
+    <div style="letter-spacing:12px;font-size:15px;position:relative;left:25px;top:25px;">Manipulate Text</div>
+    <div style="color:#40B3DF;letter-spacing:12px;font-size:15px;position:relative;left:25px;top:30px;">Colors,
+    <span style="background-color:#B4009E;color:#ffffff;"> Boxes</span></div>
+  </div>
+</div>
+
+<h2>Image Maps</h2>
+<p>Click on the sun or on one of the planets to watch it closer:</p>
+
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
 
 <h2>Floating Images</h2>
 <p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
 
 <p><strong>Float the image to the left:</strong></p>
 <p>
@@ -104,10 +181,49 @@ li a:hover
 A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
 </p>
 
+<h2>Animated Images</h2>
+
+<p>HTML allows moving images:</p>
+
+<img src="programming.gif" alt="Computer man" style="width:48px;height:48px;">
+
+<div style="border: 1px solid black">Hello World</div>
+
+<p>The DIV element is a block element, and will always start on a new line and take up the full width available (stretches out to the left and right as far as it can).</p>
+
+<p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p>
+
+<p>The SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.</p>
+
+<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style an element with the class name "cities":</p>
+
+<div class="cities">
+  <h2>London</h2>
+  <p>London is the capital of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+  <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div> 
+=
+
+
+
+<div id="result"></div>
+
+
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
+
 
 
 <hr>
-<p>This is<br>a paragraph<br>with line breaks.</p>
+
 <pre>
   My Bonnie lies over the ocean.
 
@@ -117,6 +233,21 @@ A paragraph with a floating image. A paragraph with a floating image. A paragrap
 
   Oh, bring back my Bonnie to me.
 </pre>
+
+
+
+<div>
+  
+    <img 
+      src="https://feen.us/214mit.png" 
+      width="830" 
+      height="585" 
+      alt="Stickman" 
+      style="min-width: 100%;" 
+      class="fr-fic fr-dii"
+    >
+  
+</div>
 
 
 
