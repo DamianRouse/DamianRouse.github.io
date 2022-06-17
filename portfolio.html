@@ -55,6 +55,8 @@ li a:hover
 }
 
 
+
+
 .everything
 {
   height: auto;
@@ -65,8 +67,6 @@ li a:hover
   height: 90%;
   width:100%;
   text-align: center;
- 
-
   background-color: black;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -74,17 +74,18 @@ li a:hover
   margin: 0;
   padding: 0;
   overflow-x:hidden;
-  color: white;
-  background-image: url('/Misc/7178994-1024x576.png');
+  color: black;
   text-align: center;
 }
 
 .banner
 {
+  background-image: url('/Misc/7178994-1024x576.png');
   background-color: black;
   height: 15%;
   color: crimson;
   line-height: normal;
+  padding-bottom: 5%;
 }
 
 .columnRight
@@ -115,11 +116,40 @@ li a:hover
 .rest
 {
   height: 85%;
-  padding: 50% 0;
+  padding: 6%;
+  color: white;
+  background: rgba(19, 1, 1, 1);
+}
+
+
+.sectionHeader
+{
+  height: 10%;
   color: white;
   font-size: 60px;
-  font-family: Garamond, serif;
 }
+
+.projectElement
+{
+  height: 30%;
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 5%;
+}
+
+.projectButton:link, .projectButton:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.projectButton:hover, .projectButton:active {
+  background-color: red;
+}
+
 
 .bottomSection
 {
@@ -180,8 +210,45 @@ footer {
   </div>
 
   <div class="rest">
-    <p><b>H</b></p>
-    <p><small><small><small>Damian Rouse</small></small></small></p>
+    <div class="sectionHeader">
+      <p><b>Student Group Projects</b></p>
+    </div>
+    
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+
+    <div class="sectionHeader">
+      <p><b>Solo Projects</b></p>
+    </div>
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+    <div class="projectElement">
+      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <br>
+      <a class="projectButton" href="default.asp">This is a link</a>
+    </div>
+
   </div>
 
 </div>
