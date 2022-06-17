@@ -18,6 +18,7 @@ body
   margin: 0;
   padding: 0;
   overflow-x:hidden;
+  font-family: Garamond, serif;
 }
 
 
@@ -107,7 +108,7 @@ li a:hover
 }
 
 
-.topLeftImage
+.imageDefault
 {
   width:100%;
   height:100%;
@@ -121,34 +122,51 @@ li a:hover
   background: rgba(19, 1, 1, 1);
 }
 
-
-.sectionHeader
+.doubleColumnHolder
 {
   height: 10%;
   color: white;
-  font-size: 60px;
+  width: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
-.projectElement
+.leftDoubleColumn
+{
+  padding-top: 2%;
+  padding-left: 3%;
+  display: inline-block;
+  position:relative;
+  float:left;
+}
+.rightDoubleColumn
+{
+  padding-top: 4%;
+  padding-right: 3%;
+  display: inline-block;
+  position:relative;
+  float:right;
+}
+
+
+.tripleColumnHolder
+{
+  height: 10%;
+  color: white;
+  width: 100%;
+}
+
+.tripleColumnS
 {
   height: 40%;
-  width: 40%;
+  width: 27%;
   display: inline-block;
   padding-bottom: 5%;
+  padding-right: 6%;
+  font-size: 20px;
+  text-align: left;
 }
 
-.projectButton:link, .projectButton:visited {
-  background-color: #101218;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.projectButton:hover, .projectButton:active {
-  background-color: red;
-}
 
 
 .bottomSection
@@ -180,7 +198,7 @@ footer {
 
   <div class="banner">
     <div class="columnLeft">
-      <img class="topLeftImage" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+      <img class="imageDefault" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
     </div>
     <div class="columnRight">
       <ul>
@@ -210,44 +228,61 @@ footer {
   </div>
 
   <div class="rest">
-    <div class="sectionHeader">
-      <p><b>Student Group Projects</b></p>
-    </div>
-    
-    <div class="projectElement">
-      <img class="topLeftImage" src="/Dimensional_Gears/Screenshot_2022-03-29_151750.png" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">DIMENSIONAL GEARS</a>
-    </div>
-    <div class="projectElement">
-      <img class="topLeftImage" src="/Grapple_Labyrinth/GrappleLabyrinth_2-1024x768.jpg" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">GRAPPLE LABYRINTH</a>
+    <div class="doubleColumnHolder">
+      <div class="leftDoubleColumn">
+        <p><b>Student Group Projects</b></p>
+      </div>
+      <div class="rightDoubleColumn">
+        <img class="imageDefault" src="/Misc/cropped-1356983937.rilin_rilinvita.png" alt="Icon">
+        <br>
+        <p><b>Email:</b> damianr2000@hotmail.com</p>
+      </div>
     </div>
 
-    <div class="sectionHeader">
-      <p><b>Solo Projects</b></p>
+    <div class="tripleColumnHolder">
+      <div class="tripleColumnS">
+        <pre>
+<b>Projects:</b>
+
+-Dimensional Gears
+-Grapple Labyrinth
+
+
+
+
+        </pre>
+      </div>
+      <div class="tripleColumnS">
+        <pre>
+<b>Skills:</b>
+
+-Batch
+-C
+-C++
+-C#
+-HLSL
+-Python
+        </pre>
+      </div>
+      <div class="tripleColumnS">
+        <pre>
+<b>Software:</b>
+
+-Github
+-Maya
+-TortoiseSVN
+-Unity
+-Visual Studio
+
+        </pre>
+      </div>
     </div>
-    <div class="projectElement">
-      <img class="topLeftImage" src="/Frooger/Froogger.PNG" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">FROOGER</a>
-    </div>
-    <div class="projectElement">
-      <img class="topLeftImage" src="/Arcade/wip.png" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">Arcade</a>
-    </div>
-    <div class="projectElement">
-      <img class="topLeftImage" src="/PCG/PCGImage4.png" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">PCG PRACTICE</a>
-    </div>
-    <div class="projectElement">
-      <img class="topLeftImage" src="/3D_Practice/5.PNG" alt="Icon">
-      <br>
-      <a class="projectButton" href="default.asp">3D PRACTICE</a>
-    </div>
+
+
+
+    
+    
+
 
   </div>
 
