@@ -302,7 +302,7 @@ div.hidden
   
   color: white;
   background-color: rgba(19, 1, 1, 0.9);
-  border: 2px solid green;
+  border: 2px solid white;
 }
 
 
@@ -319,20 +319,37 @@ div.hidden
 
 .sectionHeader
 {
-  height: 10%;
+  height: 4vh;
+  width: 100%;
+  
+  text-align: center;
+  
   color: white;
   font-size: 60px;
 }
 
 .projectElement
 {
-  height: 40%;
-  width: 40%;
+  height: 20vh;
+  max-width:  50%;
   display: inline-block;
-  padding-bottom: 5%;
+  margin-bottom: 5%;
 }
 
-.projectButton:link, .projectButton:visited {
+.projectElement img
+{
+  
+}
+
+.projectElement div
+{
+  
+}
+
+
+
+.projectButton:link, .projectButton:visited
+{
   background-color: #101218;
   color: white;
   padding: 14px 25px;
@@ -341,5 +358,7 @@ div.hidden
   display: inline-block;
 }
 
-.projectButton:hover, .projectButton:active {
+.projectButton:hover, .projectElement:hover .projectElement div
+{
   background-color: red;
+}
