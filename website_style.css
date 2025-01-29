@@ -333,15 +333,15 @@ div.hidden
   height: 20vh;
   max-width:  50%;
   display: inline-block;
-  margin-bottom: 5%;
+  margin-bottom: 5vh;
 }
 
-.projectElement img
+img.projectImage
 {
   
 }
 
-.projectElement div
+div.projectName
 {
   
 }
@@ -356,6 +356,11 @@ div.hidden
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+
+.projectElement:hover
+{
+  border: 1px solid #777;
 }
 
 .projectButton:hover, .projectElement:hover .projectElement div
