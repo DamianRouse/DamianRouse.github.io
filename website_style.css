@@ -251,10 +251,9 @@ div.everything
 .rest
 {
   height: 85%;
-  padding: 50% 0;
+  padding: 6%;
   color: white;
-  font-size: 60px;
-  font-family: Garamond, serif;
+  background: rgba(19, 1, 1, 1);
 }
 
 div.homeMiddleSection
@@ -284,3 +283,38 @@ div.footer
   background-color: black;
   color: white;
 }
+
+.imageDefault
+{
+  width:100%;
+  height:100%;
+}
+
+
+
+.sectionHeader
+{
+  height: 10%;
+  color: white;
+  font-size: 60px;
+}
+
+.projectElement
+{
+  height: 40%;
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 5%;
+}
+
+.projectButton:link, .projectButton:visited {
+  background-color: #101218;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.projectButton:hover, .projectButton:active {
+  background-color: red;
