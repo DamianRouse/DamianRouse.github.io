@@ -46,8 +46,6 @@ body
 /====================*/
 h1 
 {
-  /* color: navy;
-  margin-left: 20px; */
   font-family: Georgia, serif;
 }
 
@@ -113,6 +111,8 @@ ul.navBar
   padding: 0;
   overflow: hidden;
   /* background-color: #dddddd; */
+  
+  border: 2px solid yellow;
 }
 
 /* set the individual element properties */
@@ -250,11 +250,6 @@ div.everything
   font-family: Garamond, serif;
 }
 
-div.homeMainSection
-{
-  height: 90vh;
-}
-
 div.homeMiddleSection
 {
   max-width:100%;
@@ -264,6 +259,12 @@ div.homeMiddleSection
   color: white;
   font-size: 60px;
   /*font-family: Garamond, serif;*/
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  border: 2px solid green;
 }
 
 div.footer
