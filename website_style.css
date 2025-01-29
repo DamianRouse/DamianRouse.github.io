@@ -332,8 +332,8 @@ div.hidden
 {
   height: 20vh;
   max-width:  50%;
-  display: inline-block;
   margin-bottom: 5vh;
+  border-radius: 4px;
 }
 
 img.projectImage
@@ -345,13 +345,16 @@ img.projectImage
 div.projectName
 {
   width: 100%;
-  position: relative;
-  display: inline-block;
   padding: 15px;
   text-align: center;
   
   background-color: #101218;
   color: white;
+}
+
+.projectElement:hover .projectName
+{
+  background-color: red;
 }
 
 
