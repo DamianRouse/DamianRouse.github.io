@@ -68,10 +68,11 @@ span
 /* set banner sizes and properties */
 .banner
 {
-  background-color: black;
+  background-color: rgba(0,0,0,0);
   height: 10vh;
   color: crimson;
   line-height: normal;
+  border: 2px red;
 }
 
 .columnRight
