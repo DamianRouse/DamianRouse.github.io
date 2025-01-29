@@ -257,13 +257,13 @@ div.homeMainSection
 
 div.homeMiddleSection
 {
-  width:100%;
+  max-width:100%;
   text-align: center;
   height: 80vh;
-  padding: 50% 0;
+  /*padding: 50% 0;*/
   color: white;
   font-size: 60px;
-  font-family: Garamond, serif;
+  /*font-family: Garamond, serif;*/
 }
 
 div.footer
