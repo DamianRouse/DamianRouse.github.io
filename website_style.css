@@ -1,4 +1,6 @@
-/* Whole Page */
+/*====================/
+/Whole Page
+/====================*/
 
 /*
 html {
@@ -7,16 +9,10 @@ html {
 }
 */
 
+/* Make all elements include padding and margins to their size */
 * 
 {
   box-sizing: border-box;
-}
-
-@property --startColor
-{
-  syntax: "<color>";
-  initial-value: #EADEDB;
-  inherits: false;
 }
 
 /* Main body */
@@ -32,10 +28,21 @@ body
 }
 
 
+/*====================/
+/Variables
+/====================*/
+
+@property --startColor
+{
+  syntax: "<color>";
+  initial-value: #EADEDB;
+  inherits: false;
+}
 
 
-
-/* Fonts for website */
+/*====================/
+/Fonts
+/====================*/
 h1 
 {
   /* color: navy;
@@ -56,7 +63,7 @@ span
 
 
 /*====================/
-/Navigation Style
+/Navigation Bar Style
 /====================*/
 /* set banner sizes and properties */
 .banner
@@ -187,8 +194,9 @@ li a:hover, .dropdown:hover .dropbtn
 
 
 
-
-/* Other Classes */
+/*====================/
+/ Other Classe
+/====================*/
 .everything
 {
   height: auto;
