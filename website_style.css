@@ -328,14 +328,17 @@ div.hidden
   
   color: white;
   font-size: 60px;
+  border: 2px solid red;
 }
 
 .projectElement
 {
+  display: block;
   height: 30vh;
   max-width:  30%;
   margin-bottom: 5vh;
   border-radius: 4px;
+  border: 2px solid blue;
 }
 
 img.projectImage
