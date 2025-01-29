@@ -73,7 +73,7 @@ div.banner
   height: 10vh;
   color: crimson;
   line-height: normal;
-  border: 2px red;
+  border: 2px solid red;
 }
 
 .columnRight
