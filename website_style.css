@@ -258,11 +258,11 @@ div.everything
 
 div.homeMiddleSection
 {
-  line-height: 200px;
+  
   max-width:100%;
   text-align: center;
   height: 85vh;
-  /*padding: 50% 0;*/
+  padding: 50% 0;*/
   color: white;
   font-size: 60px;
   /*font-family: Garamond, serif;*/
