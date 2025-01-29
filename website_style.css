@@ -339,7 +339,7 @@ div.hidden
 
 .projectElement
 {
-  display: block;
+  float: left;
   height: 30vh;
   max-width:  30%;
   margin-bottom: 5vh;
