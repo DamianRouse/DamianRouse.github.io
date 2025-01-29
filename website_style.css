@@ -33,12 +33,18 @@ body
 /Variables
 /====================*/
 
-@property --startColor
+/*@property --startColor
 {
   syntax: "<color>";
   initial-value: #EADEDB;
   inherits: false;
+}*/
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
 }
+
 
 
 /*====================/
@@ -116,7 +122,7 @@ ul.navBar
   /* background-color: #dddddd; */
   border: 2px solid yellow;
   
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /* set the individual element properties */
@@ -268,7 +274,7 @@ div.homeMiddleSection
 div.footer
 {
   height: 5vh;
-  max-width: 100%
+  max-width: 100%;
   
   border-top: 1px solid grey;
   padding-top: 4%;
