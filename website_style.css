@@ -113,7 +113,7 @@ div.banner
 
 
 /* set the unsort list properties */
-ul.navBar
+ul.navUnsortedList
 {
   position: -webkit-sticky; /* Safari */
   position: sticky;
