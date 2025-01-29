@@ -338,12 +338,17 @@ div.hidden
 
 img.projectImage
 {
-  
+  width: 100%;
+  height: auto;
 }
 
 div.projectName
 {
-  
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
 }
 
 
