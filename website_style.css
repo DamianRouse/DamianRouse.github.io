@@ -319,8 +319,9 @@ div.hidden
 
 .sectionHeader
 {
-  height: 4vh;
+  height: 10vh;
   width: 100%;
+  margin: 0px
   
   text-align: center;
   
