@@ -139,6 +139,19 @@ li a, .dropbtn
   /* background-color: #dddddd; */
 }
 
+li a:first-child, .dropbtn:first-child
+{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+li a:last-child, .dropbtn:last-child
+{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
 /* Change the background color of when the navigation buttons are hovered; dropdown button when the dropdown content is shown */
 li a:hover, .dropdown:hover .dropbtn 
 {
