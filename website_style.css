@@ -262,6 +262,11 @@ div.footer
   background-color: black;
   color: white;
 }
+
+div.hidden
+{
+  display:none;
+}
 /*====================/
 / Portfolio Classes
 /====================*/
