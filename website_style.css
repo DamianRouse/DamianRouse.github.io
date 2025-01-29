@@ -69,7 +69,7 @@ span
 .banner
 {
   background-color: black;
-  height: 15%;
+  height: 10vh;
   color: crimson;
   line-height: normal;
 }
@@ -100,7 +100,7 @@ span
 
 
 /* set the unsort list properties */
-ul
+ul.navBar
 {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -239,8 +239,9 @@ li a:hover, .dropdown:hover .dropbtn
   padding-bottom: 4%;
   padding-left: 3%;
   background-color: black;
-  height: 10%;
+  height: 10vh;
   color: white;
+  max-width: 100%
 }
 
 
