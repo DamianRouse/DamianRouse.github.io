@@ -84,7 +84,7 @@ div.banner
 
 .columnRight
 {
-  max-width: 50%;
+  /* max-width: 50%; */
   height: auto;
   
   float: right;
@@ -258,6 +258,7 @@ div.everything
 
 div.homeMiddleSection
 {
+  line-height: 200px;
   max-width:100%;
   text-align: center;
   height: 85vh;
