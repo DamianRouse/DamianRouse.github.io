@@ -2,11 +2,12 @@
 /Whole Page
 /====================*/
 
-
+/*
 html {
   background: url('/Misc/7178994-1024x576.png') no-repeat center fixed;
   background-size: cover;
 }
+*/
 
 
 /* Make all elements include padding and margins to their size */
@@ -215,6 +216,9 @@ div.everything
 {
   height: auto;
   width:auto;
+  
+  background: url('/Misc/7178994-1024x576.png') no-repeat center fixed;
+  background-size: cover;
 }
 
 .mainSection {
