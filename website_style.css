@@ -254,7 +254,7 @@ div.homeMiddleSection
 {
   max-width:100%;
   text-align: center;
-  height: 80vh;
+  height: 85vh;
   /*padding: 50% 0;*/
   color: white;
   font-size: 60px;
@@ -274,7 +274,7 @@ div.footer
   padding-bottom: 4%;
   padding-left: 3%;
   background-color: black;
-  height: 10vh;
+  height: 5vh;
   color: white;
   max-width: 100%
 }
