@@ -126,26 +126,20 @@ ul.navBar
 }
 
 /* set the individual element properties */
-li 
+li, li.dropdown
 {
-  float: left;
-}
-
-/* define li dropdown and sets it to be the same display as the other list elements*/
-li.dropdown
-{
-  /*display: inline-block;*/
   float: left;
 }
 
 /* Style the navigation buttons and Dropdown Button */
 li a, .dropbtn 
 {
-  font-size: 18px;
   display: block;
+  padding: 20px;
+  
+  font-size: 18px;
   color: white;
   text-align: center;
-  padding: 20px;
   text-decoration: none; /* remove underline */
   /* background-color: #dddddd; */
 }
@@ -194,7 +188,8 @@ li a:hover, .dropdown:hover .dropbtn
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a
+{
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -216,7 +211,7 @@ li a:hover, .dropdown:hover .dropbtn
 
 
 /*====================/
-/ Other Classe
+/ Other Classes
 /====================*/
 div.everything
 {
@@ -277,20 +272,10 @@ div.footer
   max-width: 100%;
   
   border-top: 1px solid grey;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  padding-left: 3%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
   
   background-color: black;
   color: white;
 }
-
-
-/*
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-*/
