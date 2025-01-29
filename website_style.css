@@ -158,13 +158,13 @@ li:last-child
 /* Change the background color of when the navigation buttons are hovered; dropdown button when the dropdown content is shown */
 li a:hover, .dropdown:hover .dropbtn 
 {
-  background: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* outlier for a different hover color */
 .whiteHover:hover
 {
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 /* Show the dropdown menu on hover */
@@ -203,7 +203,7 @@ li a:hover, .dropdown:hover .dropbtn
 
 .active
 {
-  background-color: #04AA6D;
+  background-color: rgba(100, 0, 0, 0.4);
 }
 
 
@@ -262,16 +262,19 @@ div.homeMiddleSection
   border: 2px solid green;
 }
 
+/* The Footer at every page */
 div.footer
 {
+  height: 5vh;
+  max-width: 100%
+  
   border-top: 1px solid grey;
   padding-top: 4%;
   padding-bottom: 4%;
   padding-left: 3%;
+  
   background-color: black;
-  height: 5vh;
   color: white;
-  max-width: 100%
 }
 
 
