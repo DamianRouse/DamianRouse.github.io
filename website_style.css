@@ -277,8 +277,8 @@ div.footer
   max-width: 100%;
   
   border-top: 1px solid grey;
-  padding-top: 5px;
-  padding-bottom: 8px;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   padding-left: 20px;
   
   background-color: black;
