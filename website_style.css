@@ -84,11 +84,16 @@ div.banner
 
 .columnRight
 {
+  max-width: 50%;
+  height: auto;
+  
+  float: right;
+  
   padding-top: 4%;
   padding-right: 3%;
-  display: inline-block;
-  position:relative;
-  float:right;
+  /*display: inline-block;
+  position:relative;*/
+  
 }
 
 .columnLeft
