@@ -253,7 +253,7 @@ div.everything
   height: 85%;
   padding: 6%;
   color: white;
-  background: rgba(19, 1, 1, 1);
+  background-color: rgba(19, 1, 1, 0.9);
 }
 
 div.homeMiddleSection
