@@ -20,12 +20,14 @@ html {
 body
 {
   height: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  
   margin: 0;
   padding: 0;
   overflow-x:hidden;
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 
@@ -215,9 +217,27 @@ li.navListItem a:hover, .dropdown:hover .dropbtn
   background-color: rgba(100, 0, 0, 0.4);
 }
 
+/*====================/
+/ Index Classes
+/====================*/
+/* centered text in the center and that's it */
+div.homeMiddleSection
+{
+  box-sizing: border-box;
+  max-width:100%;
+  text-align: center;
+  height: 85vh;
+  padding: 30vh 0;
+  color: white;
+  font-size: 60px;
+  
+  /* border: 2px solid green; debug */
+}
+
+
 
 /*====================/
-/ Other Classes
+/ SiteWide Classes
 /====================*/
 div.everything
 {
@@ -227,6 +247,25 @@ div.everything
   background: url('/Misc/7178994-1024x576.png') no-repeat center fixed;
   background-size: cover;
 }
+
+/* The Footer at every page */
+div.footer
+{
+  height: 5vh;
+  max-width: 100%;
+  
+  border-top: 1px solid grey;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 20px;
+  
+  background-color: black;
+  color: white;
+}
+/*====================/
+/ Portfolio Classes
+/====================*/
+
 
 .mainSection {
   height: 90%;
@@ -250,39 +289,19 @@ div.everything
 
 .rest
 {
-  height: 85%;
-  padding: 6%;
+  height: auto;
+  max-width: 100%;
+  
+  padding: 0 5vw;
+  
   color: white;
   background-color: rgba(19, 1, 1, 0.9);
-}
-
-div.homeMiddleSection
-{
-  box-sizing: border-box;
-  max-width:100%;
-  text-align: center;
-  height: 85vh;
-  padding: 30vh 0;
-  color: white;
-  font-size: 60px;
-  
   /* border: 2px solid green; debug */
 }
 
-/* The Footer at every page */
-div.footer
-{
-  height: 5vh;
-  max-width: 100%;
-  
-  border-top: 1px solid grey;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 20px;
-  
-  background-color: black;
-  color: white;
-}
+
+
+
 
 .imageDefault
 {
