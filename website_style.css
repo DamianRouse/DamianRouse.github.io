@@ -72,6 +72,7 @@ div.banner
   color: crimson;
   line-height: normal;
   border: 2px solid red;
+  display:  block;
 }
 
 .columnRight
@@ -260,9 +261,6 @@ div.homeMiddleSection
   font-size: 60px;
   /*font-family: Garamond, serif;*/
   
-  display: flex;
-  align-items: center;
-  justify-content: center;
   
   border: 2px solid green;
 }
