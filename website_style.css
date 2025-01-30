@@ -537,9 +537,8 @@ table.experienceTable, .experienceTable th, .experienceTable td
   width: 100px;
   display:inline-block;
   
-  padding: 1vh 1vw;
-  margin: 1vh 1vw;
-  margin-bottom: 1vh;
+  padding: 0.5vh 0.5vw;
+  margin: 0.5vh 0.5vw;
   border-radius: 4px;
   
   border: 2px solid blue;  
@@ -551,7 +550,8 @@ table.experienceTable, .experienceTable th, .experienceTable td
   width: 100%;
   height: auto;
   
-  word-wrap: break-word;
+  word-wrap: normal;
   background: none;
   text-decoration: none;
+  color: aqua;
 }
