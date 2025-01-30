@@ -523,51 +523,12 @@ table.experienceTable
   font-size: 100%;
 }
 
-
-
-.doubleColumnHolder
+.experienceTable th
 {
-  height: 10%;
-  color: white;
-  width: 100%;
-  padding-top: 15%;
-  padding-bottom: 40%;
+  border: 1px solid white;
 }
 
-.leftDoubleColumn
+.experienceTable td
 {
-  padding-top: 2%;
-  padding-left: 3%;
-  display: inline-block;
-  position:relative;
-  float:left;
+  border: 1px solid white;
 }
-.rightDoubleColumn
-{
-  padding-top: 4%;
-  padding-right: 3%;
-  display: inline-block;
-  position:relative;
-  float:right;
-}
-
-
-.tripleColumnHolder
-{
-  height: 10%;
-  color: white;
-  width: 100%;
-}
-
-.tripleColumnS
-{
-  height: 40%;
-  width: 30%;
-  display: inline-block;
-  padding-bottom: 5%;
-  font-size: 20px;
-  text-align: left;
-}
-
-
-
