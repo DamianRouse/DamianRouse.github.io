@@ -338,6 +338,7 @@ ul.projectUnsortedList
   padding: 2px;
   
   list-style-type: none;
+  text-align: center;
   
   /* overflow: hidden; */
   
@@ -355,9 +356,11 @@ li.projectElement
   width: 333px;
   display:inline-block;
   
+  margin: auto;
   margin-bottom: 1vh;
   border-radius: 4px;
   border: 2px solid blue;
+  
 }
 
 li.projectElement a
