@@ -541,7 +541,8 @@ table.experienceTable, .experienceTable th, .experienceTable td
   margin: 0.5vh 0 0.5vh 0.5vw;
   border-radius: 4px;
   
-  border: 2px solid white;  
+  border: 2px solid white;
+  text-align: center;
 }
 
 /* Creates a link with no background nor text decoration */
