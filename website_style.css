@@ -229,6 +229,22 @@ div.everything
   background-size: cover;
 }
 
+/*Creates a large section with background visible on the sides */
+.rest
+{
+  height: auto;
+  min-height: 90vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+  margin: 0 2vw;
+  padding: 1vh 2vw;
+  
+  color: white;
+  background-color: rgba(19, 1, 1, 0.9);
+  border: 2px solid white;
+}
+
 .mainSection {
   height: 90%;
   width:100%;
@@ -294,21 +310,7 @@ div.homeMiddleSection
 / Portfolio Classes
 /====================*/
 
-/*Creates a large section with background visible on the sides */
-.rest
-{
-  height: auto;
-  min-height: 90vh;
-  max-width: 100%;
-  box-sizing: border-box;
-  
-  margin: 0 2vw;
-  padding: 1vh 2vw;
-  
-  color: white;
-  background-color: rgba(19, 1, 1, 0.9);
-  border: 2px solid white;
-}
+
 
 /* Creates a divider between sections */
 .sectionHeader
@@ -424,4 +426,125 @@ div.projectName
 {
   /* border: 1px solid #777; */
 }
+
+
+/*====================/
+/ About Classes
+/====================*/
+
+/* Creates a divider between sections */
+.aboutHeader
+{
+  height: 10vh;
+  max-width: 100%;
+  margin: 1vh 0;
+  display: block;
+  box-sizing:border-box;
+  
+  text-align: center;
+  
+  color: white;
+  font-size: 60px;
+  border-bottom: 2px solid white;
+}
+
+div.bodyHolder
+{
+  height: auto;
+  min-height: 40vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+  margin: 0;
+  padding: 0;
+  
+  color: white;
+  background-color: rgba(19, 1, 1, 0.9);
+  border: 2px solid white;
+}
+
+div.profileHolder
+{
+  float: right;
+  
+  padding: 3px;
+  width: 15%;
+  min-width: 200px;
+  margin-left: 3px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p.bio
+{
+  margin: 0.5em;
+  display: block;
+  color: white;
+}
+
+div.tableHolder
+{
+  
+}
+
+table.experienceTable
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 1em 0;
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-size: 100%;
+  display: table;
+  box-sizing: border-box;
+}
+
+
+
+.doubleColumnHolder
+{
+  height: 10%;
+  color: white;
+  width: 100%;
+  padding-top: 15%;
+  padding-bottom: 40%;
+}
+
+.leftDoubleColumn
+{
+  padding-top: 2%;
+  padding-left: 3%;
+  display: inline-block;
+  position:relative;
+  float:left;
+}
+.rightDoubleColumn
+{
+  padding-top: 4%;
+  padding-right: 3%;
+  display: inline-block;
+  position:relative;
+  float:right;
+}
+
+
+.tripleColumnHolder
+{
+  height: 10%;
+  color: white;
+  width: 100%;
+}
+
+.tripleColumnS
+{
+  height: 40%;
+  width: 30%;
+  display: inline-block;
+  padding-bottom: 5%;
+  font-size: 20px;
+  text-align: left;
+}
+
+
 

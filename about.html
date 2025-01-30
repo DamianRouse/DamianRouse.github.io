@@ -3,298 +3,109 @@
 <head>
 <title>Damian Rouse Website</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
 <meta name="author" content="Damian Rouse">
 <meta name="description" content="Damian Rouse's Online Portfolio">
 <link rel="icon" href="/Misc/cropped-113.png">
+<link rel="stylesheet" href="website_style.css">
 
 <style>
-body
-{
-  height: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x:hidden;
-  font-family: Garamond, serif;
-}
-
-
-ul
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li 
-{
-  float: left;
-}
-
-li a 
-{
-  font-size: 18px;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-li a:hover 
-{
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.whiteHover:hover
-{
-  background: rgba(255, 255, 255, 0.6);
-}
-
-
-
-
-.everything
-{
-  height: auto;
-  width:auto;
-}
-
-.mainSection {
-  height: 90%;
-  width:100%;
-  text-align: center;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x:hidden;
-  color: black;
-  text-align: center;
-}
-
-.banner
-{
-  background-image: url('/Misc/7178994-1024x576.png');
-  background-color: black;
-  height: 25%;
-  color: crimson;
-  line-height: normal;
-  padding-bottom: 5%;
-}
-
-.columnRight
-{
-  padding-top: 4%;
-  padding-right: 3%;
-  display: inline-block;
-  position:relative;
-  float:right;
-}
-
-.columnLeft
-{
-  padding-top: 2%;
-  padding-left: 3%;
-  display: inline-block;
-  position:relative;
-  float:left;
-}
-
-
-.imageDefault
-{
-  width:100%;
-  height:100%;
-}
-
-.rest
-{
-  height: 85%;
-  padding: 6%;
-  color: white;
-  background: rgba(46, 44, 55, 1);
-}
-
-.doubleColumnHolder
-{
-  height: 10%;
-  color: white;
-  width: 100%;
-  padding-top: 15%;
-  padding-bottom: 40%;
-}
-
-.leftDoubleColumn
-{
-  padding-top: 2%;
-  padding-left: 3%;
-  display: inline-block;
-  position:relative;
-  float:left;
-}
-.rightDoubleColumn
-{
-  padding-top: 4%;
-  padding-right: 3%;
-  display: inline-block;
-  position:relative;
-  float:right;
-}
-
-
-.tripleColumnHolder
-{
-  height: 10%;
-  color: white;
-  width: 100%;
-}
-
-.tripleColumnS
-{
-  height: 40%;
-  width: 30%;
-  display: inline-block;
-  padding-bottom: 5%;
-  font-size: 20px;
-  text-align: left;
-}
-
-
-
-.bottomSection
-{
-  border-top: 1px solid grey;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  padding-left: 3%;
-  background-color: black;
-  height: 10%;
-  color: white;
-}
-
-
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-
 </style>
+
 </head>
 <body>
 
 <div class="everything">
-
-
-  <div class="mainSection">
-
-    <div class="banner">
-      <div class="columnLeft">
-        <img class="imageDefault" src="/Misc/Website_Logo.png" alt="Icon">
-      </div>
-      <div class="columnRight">
-        <ul>
-          <li>
-          <a href="https://damianrouse.github.io/"><b>Home</b>
-          </a>
-          </li>
-          <li>
-          <a href="/portfolio">Portfolio
-          </a>
-          </li>
-          <li>
-          <a 
-          href="/about">About
-          </a>
-          </li>
-          <li class="whiteHover">
-          <a 
-          href="/Misc/Resume_Tech.pdf"
-          target="_blank"
-          rel="noopener noreferrer">
-          <b>RESUME</b>
-          </a>
-          </li>
-        </ul>
-      </div>
+  <div class="banner">
+    <!-- <div class="columnLeft">
+      <img class="topLeftImage" src="/Misc/Website_Logo.png" alt="Icon">
+    </div> --->
+    <div class="columnRight">
+      <ul class="navUnsortedList">
+        <li class="navListItem">
+          <a href="https://damianrouse.github.io/"><b>Home</b></a>
+        </li>
+        <li class="navListItem dropdown">
+          <a class="navActive" href="/portfolio" class="dropbtn">Portfolio</a>
+          <div class="dropdown-content">
+            <a href="/portfolio#C">C/C#/C++</a>
+            <a href="/portfolio#Excel">Excel/App Script</a>
+            <a href="/portfolio#Html">Html/CSS</a>
+            <a href="/portfolio#Lua">Lua</a>
+            <a href="/portfolio#Python">Python</a>
+          </div>
+        </li>
+        <li class="navListItem"> 
+          <a href="/about">About</a>
+        </li>
+        <li class="navListItem whiteHover">
+          <a href="/Misc/Resume_Tech.pdf"target="_blank"rel="noopener noreferrer"><b>RESUME</b></a>
+        </li>
+      </ul>
     </div>
-
-    <div class="rest">
-      <div class="doubleColumnHolder">
-        <div class="leftDoubleColumn">
-          <p><b>Bio:</b></p>
-        </div>
-        <div class="rightDoubleColumn">
-          <br>
-          <br>
-          <br>
-          <br>
-          <p><b>Email:</b> damianr2000@hotmail.com</p>
-        </div>
-      </div>
-
-      <div class="tripleColumnHolder">
-        <div class="tripleColumnS">
-          <pre>
-  <b>Projects:</b>
-
-  -Dimensional Gears
-  -Grapple Labyrinth
-
-
-
-
-          </pre>
-        </div>
-        <div class="tripleColumnS">
-          <pre>
-  <b>Skills:</b>
-
-  -Batch
-  -C
-  -C++
-  -C#
-  -HLSL
-  -Python
-          </pre>
-        </div>
-        <div class="tripleColumnS">
-          <pre>
-  <b>Software:</b>
-
-  -Anaconda
-  -Brackets
-  -Github
-  -Maya
-  -TortoiseSVN
-  -Unity
-  -Visual Studio
-
-          </pre>
-        </div>
-      </div>
-
-
-
-
-
-
-
-    </div>
-
   </div>
 
-
-  <div class="bottomSection">
-    2023 Damian Rouse
+  <div class="rest">
+    
+    <h1 class="aboutHeader"><b>About Me</b></h1>
+    
+    <div class="bodyHolder">
+      <p class="bio"><b>Bio:</b></p>
+    </div>
+    
+    <div class="profileHolder">
+      <p><b>Email:</b> damianr2000@hotmail.com</p>
+    </div>
+    
+    <h1 class="sectionHeader"><b>Experience</b></h1>
+    
+    <div class="tableHolder">
+      <table class="experienceTable">
+        <tbody>
+          <tr>
+            <th width="60">
+              <b> Language </b>
+            </th>
+            <th width="60">
+              <b> Profeciency</b>
+            </th>
+            <th colspan="2">Projects</th>
+          </tr>
+          <tr>
+            <th rowspan="1"> C/C++/C# </th>
+            <td> 9 </td>
+            <td colspan="2" style="text-align:left">
+              <p style="display: inline-block; width: 40px; height:40px;"> Dimensional Gears </p>
+              <p style="display: inline-block; width: 40px; height:40px;"> Grapple Labyrinth </p>
+            </td>
+          </tr>
+          
+          <tr>
+            <th rowspan="1"> Other </th>
+            <td> 9 </td>
+            <td colspan="2" style="text-align:left">
+              <p style="display: inline-block; width: 40px; height:40px;"> H </p>
+              <p style="display: inline-block; width: 40px; height:40px;"> Y </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+          
+    <h1 class="sectionHeader"><b>Programs I'm Familiar With</b></h1>
+    <ol>
+      <li>Anaconda </li>
+      <li> Brackets</li>
+      <li> Github</li>
+      <li> Maya</li>
+      <li> TortoiseSVN</li>
+      <li> Unity</li>
+      <li> Visual Studio</li>
+    </ol> 
+  </div>
+    
+  <div class="footer">
+    2025 Damian Rouse
   </div>
   
 
