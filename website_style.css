@@ -529,7 +529,7 @@ table.experienceTable, .experienceTable th, .experienceTable td
 }
 
 /* Creates a element that can go side by side, have a fixed size, and can be centered */
-div.experienceElement
+.experienceElement
 {
   /* height: 30vh;
   max-width:  30%;*/
