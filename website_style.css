@@ -488,7 +488,7 @@ p.bio
 /* Creates a divider between sections */
 h1.aboutSectionHeader
 {
-  height: 10vh;
+  height: 7vh;
   max-width: 100%;
   margin: 1vh 0;
   display: block;
