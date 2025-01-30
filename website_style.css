@@ -248,36 +248,6 @@ div.everything
   background-size: cover;
 }
 
-/* The Footer at every page */
-div.footer
-{
-  height: 5vh;
-  max-width: 100%;
-  
-  border-top: 1px solid grey;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 20px;
-  
-  background-color: black;
-  color: white;
-}
-
-div.hidden
-{
-  display:none;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/*====================/
-/ Portfolio Classes
-/====================*/
-
-
 .mainSection {
   height: 90%;
   width:100%;
@@ -296,7 +266,36 @@ div.hidden
   text-align: center;
 }
 
+div.hidden
+{
+  display:none;
+}
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The Footer at every page */
+div.footer
+{
+  height: 5vh;
+  max-width: 100%;
+  
+  border-top: 1px solid grey;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 20px;
+  
+  background-color: black;
+  color: white;
+}
+
+
+/*====================/
+/ Portfolio Classes
+/====================*/
 
 .rest
 {
@@ -310,18 +309,6 @@ div.hidden
   background-color: rgba(19, 1, 1, 0.9);
   border: 2px solid white;
 }
-
-
-
-
-
-.imageDefault
-{
-  width:100%;
-  height:100%;
-}
-
-
 
 .sectionHeader
 {
@@ -337,27 +324,80 @@ div.hidden
   border: 2px solid red;
 }
 
-.projectElement
+
+
+/* set the unsort list properties */
+ul.projectUnsortedList
 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
+  margin: 2px;
+  padding: 2px;
+  
+  list-style-type: none;
+  
+  /* overflow: hidden; */
+  
+  /* background-color: #dddddd; */
+  border: 2px solid yellow;
+  
+  /* display: inline-block; */
+}
+
+li.projectElement
+{
+  /* height: 30vh;
+  max-width:  30%;*/
+  height: auto;
+  width: 333px;
   display:inline-block;
-  height: 30vh;
-  max-width:  30%;
-  margin-bottom: 5vh;
+  
+  margin-bottom: 1vh;
   border-radius: 4px;
   border: 2px solid blue;
 }
 
-img.projectImage
+li.projectElement a
+{
+  word-wrap: break-word;
+  background: none;
+  text-decoration: none;
+}
+
+div.projectImageHolder
 {
   width: 100%;
+  height: 200px;
+  
+  text-align: center;
+  
+  background-color: rgba(19, 1, 1, 0.9);
+}
+
+img.projectImage
+{
+  display: block;
+  width: 100%;
   height: auto;
+  
+  margin: auto;
+  border: 0;
+  vertical-align: middle;
+  overflow-clip-margin: context-box;
+  overflow: clip;
 }
 
 div.projectName
 {
   width: 100%;
+  display: block;
+  
   padding: 15px;
+  
   text-align: center;
+  word-wrap: break-word;
   
   background-color: #101218;
   color: white;
