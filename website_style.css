@@ -391,6 +391,7 @@ img.projectImage
   vertical-align: middle;
   overflow-clip-margin: context-box;
   overflow: clip;
+  object-fit: fill;
 }
 
 div.projectName
