@@ -394,7 +394,6 @@ img.projectImage
   margin: auto;
   border: 0;
   vertical-align: middle;
-  overflow-clip-margin: context-box;
   overflow: clip;
   object-fit: fill;
 }
