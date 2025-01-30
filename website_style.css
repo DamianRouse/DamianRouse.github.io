@@ -247,7 +247,7 @@ div.everything
   text-align: center;
 }
 
-div.hidden
+.hidden
 {
   display:none !important;
 }
