@@ -513,7 +513,7 @@ table.experienceTable
   display: table;
   box-sizing: border-box;
   
-  margin: 1em 0;
+  /* margin: 1em 0; */
   border: 1px solid white;
   border-collapse: collapse;
   
