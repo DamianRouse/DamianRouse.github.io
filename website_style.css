@@ -468,10 +468,11 @@ div.profileHolder
   float: right;
   width: 15%;
   min-width: 200px;
+  min-height: 60%;
   box-sizing: border-box;
   
   padding: 3px;
-  margin-left: 3px;
+  margin: 1vh 2vw;
   
   text-align: center;
   border: 2px solid white;
