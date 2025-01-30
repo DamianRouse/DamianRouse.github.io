@@ -484,6 +484,22 @@ p.bio
   color: white;
 }
 
+/* Creates a divider between sections */
+.aboutSectionHeader
+{
+  height: 10vh;
+  max-width: 100%;
+  margin: 1vh 0;
+  display: block;
+  box-sizing:border-box;
+  
+  text-align: center;
+  
+  color: white;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+}
+
 div.tableHolder
 {
   max-width:100%;
