@@ -361,6 +361,9 @@ li.projectElement
 
 li.projectElement a
 {
+  width: 100%;
+  height: auto;
+  
   word-wrap: break-word;
   background: none;
   text-decoration: none;
