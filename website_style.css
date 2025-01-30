@@ -218,25 +218,6 @@ li.navListItem a:hover, .dropdown:hover .dropbtn
 }
 
 /*====================/
-/ Index Classes
-/====================*/
-/* centered text in the center and that's it */
-div.homeMiddleSection
-{
-  box-sizing: border-box;
-  max-width:100%;
-  text-align: center;
-  height: 85vh;
-  padding: 30vh 0;
-  color: white;
-  font-size: 60px;
-  
-  /* border: 2px solid green; debug */
-}
-
-
-
-/*====================/
 / SiteWide Classes
 /====================*/
 div.everything
@@ -292,11 +273,28 @@ div.footer
   color: white;
 }
 
+/*====================/
+/ Index Classes
+/====================*/
+/* centered text in the center and that's it */
+div.homeMiddleSection
+{
+  box-sizing: border-box;
+  max-width:100%;
+  text-align: center;
+  height: 85vh;
+  padding: 30vh 0;
+  color: white;
+  font-size: 60px;
+  
+  /* border: 2px solid green; debug */
+}
 
 /*====================/
 / Portfolio Classes
 /====================*/
 
+/*Creates a large section with background visible on the sides */
 .rest
 {
   height: auto;
@@ -311,6 +309,7 @@ div.footer
   border: 2px solid white;
 }
 
+/* Creates a divider between sections */
 .sectionHeader
 {
   height: 10vh;
@@ -322,12 +321,10 @@ div.footer
   
   color: white;
   font-size: 60px;
-  border: 2px solid red;
+  border-bottom: 2px solid white;
 }
 
-
-
-/* set the unsort list properties */
+/* Creates unsorted list where its elements are centered */
 ul.projectUnsortedList
 {
   max-width: 100%;
@@ -343,11 +340,10 @@ ul.projectUnsortedList
   /* overflow: hidden; */
   
   /* background-color: #dddddd; */
-  border: 2px solid yellow;
-  
-  /* display: inline-block; */
+  /* border: 2px solid yellow; debug */
 }
 
+/* Creates a element that can go side by side, have a fixed size, and can be centered */
 li.projectElement
 {
   /* height: 30vh;
@@ -359,10 +355,11 @@ li.projectElement
   margin: auto;
   margin-bottom: 1vh;
   border-radius: 4px;
-  border: 2px solid blue;
   
+  /* border: 2px solid blue; debug */  
 }
 
+/* Creates a link with no background nor text decoration */
 li.projectElement a
 {
   width: 100%;
@@ -373,6 +370,7 @@ li.projectElement a
   text-decoration: none;
 }
 
+/* Creates a holder with a fixed size for an image */
 div.projectImageHolder
 {
   width: 100%;
@@ -383,6 +381,7 @@ div.projectImageHolder
   background-color: rgba(19, 1, 1, 0.9);
 }
 
+/* Creates an image that will fill whatever element it is put inside */
 img.projectImage
 {
   display: block;
@@ -397,6 +396,7 @@ img.projectImage
   object-fit: fill;
 }
 
+/* Creates a section for the name where its background can be recolored */
 div.projectName
 {
   width: 100%;
@@ -411,29 +411,15 @@ div.projectName
   color: white;
 }
 
+/* When either the image or name is hovered, make the name red */
 .projectElement:hover .projectName
 {
   background-color: red;
 }
 
-
-
-.projectButton:link, .projectButton:visited
-{
-  background-color: #101218;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
+/* When either the image or name is hovered, create border around whole element */
 .projectElement:hover
 {
   border: 1px solid #777;
 }
 
-.projectButton:hover, .projectElement:hover .projectElement div
-{
-  background-color: red;
-}
