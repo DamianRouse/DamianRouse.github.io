@@ -484,20 +484,23 @@ p.bio
 
 div.tableHolder
 {
-  
+  max-width:100%;
 }
 
 table.experienceTable
 {
-  text-align: center;
-  background-color: black;
-  color: white;
+  width:auto;
+  display: table;
+  box-sizing: border-box;
+  
   margin: 1em 0;
   border: 1px solid white;
   border-collapse: collapse;
+  
+  text-align: center;
+  background-color: black;
+  color: white;
   font-size: 100%;
-  display: table;
-  box-sizing: border-box;
 }
 
 
