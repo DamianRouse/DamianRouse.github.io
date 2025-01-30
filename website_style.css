@@ -300,6 +300,7 @@ div.footer
 .rest
 {
   height: auto;
+  min-height: 90vh;
   max-width: 100%;
   box-sizing: border-box;
   
