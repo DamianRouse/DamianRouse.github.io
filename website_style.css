@@ -303,6 +303,7 @@ div.homeMiddleSection
   box-sizing: border-box;
   
   margin: 0 2vw;
+  padding: 1vh 2vw
   
   color: white;
   background-color: rgba(19, 1, 1, 0.9);
@@ -313,10 +314,10 @@ div.homeMiddleSection
 .sectionHeader
 {
   height: 10vh;
-  width: 100%;
-  margin: 1vh 1vw;
+  max-width: 100%;
+  margin: 1vh 0;
   display: block;
-  box-sizing: border-box;
+  box-sizing:border-box;
   
   text-align: center;
   
