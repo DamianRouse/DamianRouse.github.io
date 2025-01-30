@@ -509,6 +509,7 @@ div.tableHolder
 table.experienceTable
 {
   width:auto;
+  min-width: 50%;
   display: table;
   box-sizing: border-box;
   
