@@ -523,7 +523,7 @@ table.experienceTable
   font-size: 100%;
 }
 
-.experienceTable, .experienceTable th, .experienceTable td
+table.experienceTable, .experienceTable th, .experienceTable td
 {
   border: 1px solid white;
 }
