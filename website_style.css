@@ -468,7 +468,7 @@ div.profileHolder
   float: right;
   width: 15%;
   min-width: 200px;
-  min-height: 60%;
+  min-height: 30vh;
   box-sizing: border-box;
   
   padding: 3px;
