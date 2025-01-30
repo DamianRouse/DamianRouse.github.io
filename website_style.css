@@ -249,7 +249,7 @@ div.everything
 
 div.hidden
 {
-  display:none;
+  display:none !important;
 }
 
 .clearfix:after {
