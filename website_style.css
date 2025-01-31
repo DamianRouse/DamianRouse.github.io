@@ -637,7 +637,7 @@ div.toc
 }
 
 /* Invisible toggle for Table of Contents */
-input.tocToggleCheckbox
+.tocToggleCheckbox
 {
   display: inline !important;
   position: absolute;
@@ -679,7 +679,7 @@ input.tocToggleCheckbox
 }
 
 /* the center text after the title */
-.toc .tocToggleLabel
+.tocToggleLabel
 {
   cursor: pointer;
   color: white;
