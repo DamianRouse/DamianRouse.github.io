@@ -635,7 +635,7 @@ div.projectDetailsSide
   min-height: 30vh;
   box-sizing: border-box;
   
-  padding: 3px;
+  padding: 1vh 1vw;
   margin: 1vh 2vw;
   
   text-align: center;
@@ -686,7 +686,7 @@ div.projectDetailsSide
   width: 100%;
   display: block;
   
-  padding: 15px;
+  margin: 20px 0px;
   
   text-align: center;
   word-wrap: break-word;
