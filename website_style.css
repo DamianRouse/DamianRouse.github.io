@@ -784,7 +784,7 @@ div.projectDetailsSide
   content: 'show';
 }
 
-.tocToggleCheckbox:checked + .tocUnsortedList
+#tocToggleCheckbox:checked ~ .tocUnsortedList
 {
   display: none;
 }
