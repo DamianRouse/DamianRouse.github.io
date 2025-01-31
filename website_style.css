@@ -626,7 +626,7 @@ div.projectBodyHolder
 }
 
 /* Table of contents */
-div.toc
+.toc
 {
   display: table;
   
