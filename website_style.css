@@ -582,7 +582,7 @@ h1.projectHeader
 div.projectBigImageHolder
 {
   height: auto;
-  min-height: 40vh;
+  min-height: 10vh;
   max-width: 100%;
   box-sizing: border-box;
   
@@ -605,4 +605,60 @@ div.projectBigImageHolder
   vertical-align: middle;
   overflow: clip;
   object-fit: fill;
+}
+
+div.projectBodyHolder
+{
+  height: auto;
+  min-height: 40vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+  margin: 0;
+  padding: 0;
+  
+  color: white;
+  background-color: rgba(19, 1, 1, 0.9);
+  border: 2px solid white;
+}
+
+div.toc
+{
+  display: table;
+  
+  padding: 7px;
+  border-radius: 4px;
+  border: 2px solid white;
+  
+}
+
+input.tocToggleCheckbox
+{
+  display: inline;
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.toc .tocTitle
+{
+  text-align: center;
+  display: block;
+}
+
+.toc .tocHeader
+{
+  display:inline;
+  border: 0;
+}
+
+.toc .tocToggleSpan
+{
+  
+}
+
+.toc .tocToggleLabel
+{
+  cursor: point;
+  color: white;
 }
