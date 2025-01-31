@@ -607,7 +607,7 @@ div.projectBigImageHolder
   
   color: white;
   background-color: rgba(19, 1, 1, 0.9);
-  border: 2px solid white;
+  /* border: 2px solid white;*/
 }
 
 /* Scales the main image itself */
