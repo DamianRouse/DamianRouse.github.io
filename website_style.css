@@ -704,10 +704,11 @@ div.projectBodyHolder
   display: none;
 }
 
+/*
 .toc:hover .tocUnsortedList
 {
   display:none;
-}
+}*/
 
 /*
 .tocToggleCheckbox:not(:checked) + .toc .tocToggleLabel::after
