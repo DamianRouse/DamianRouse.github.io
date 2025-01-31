@@ -634,7 +634,7 @@ div.toc
 
 input.tocToggleCheckbox
 {
-  display: inline;
+  display: inline !important;
   position: absolute;
   opacity: 0;
   z-index: -1;
@@ -656,6 +656,28 @@ input.tocToggleCheckbox
 .toc .tocToggleSpan
 {
   font-size: 94%;
+}
+
+.toc .tocToggleSpan::before
+{
+  content: ' [';
+}
+
+.toc .tocToggleSpan::after
+{
+  content: ']';
+}
+
+.toc .tocToggleCheckbox::not(:checked) + .tocTitle
+.tocToggleLabel::after
+{
+  content: 'hide';
+}
+
+.toc .tocToggleCheckbox:checked + 
+.tocTitle .tocToggleLabel::after
+{
+  content: 'show';
 }
 
 .toc .tocToggleLabel
