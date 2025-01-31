@@ -584,7 +584,7 @@ h2.projectSubHeader
   height: 10vh;
   max-width: 100%;
   margin: 1vh 0;
-  display: block;
+  display: flow-root;
   box-sizing:border-box;
   
   text-align: center;
