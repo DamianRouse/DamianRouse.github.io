@@ -52,10 +52,26 @@ body
 /*====================/
 /Fonts
 /====================*/
+
+html
+{
+  min-font-size: 8px;
+  max-font-size: 80px;
+}
+
 h1 
 {
+  font-size: 60px;
+  /*font-size: 4rem; */
   font-family: Georgia, serif;
 }
+
+h2 
+{
+  font-size: 40px;
+  font-family: Georgia, serif;
+}
+
 
 p
 {
@@ -66,6 +82,30 @@ span
 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (min-width: 768px) 
+{
+  html 
+  {
+    /* font-size: 16px; */
+  }
+  
+  h1 
+  {
+    font-size: 30px; /* 3rem * 16px = 48px */
+  }
+  
+  h2
+  {
+    font-size: 20px; /* 3rem * 16px = 48px */
+  }
+  
+  p 
+  {
+    font-size: 1rem; /* 1 * 16px = 16px */
+  }
+}
+
 
 
 
@@ -268,12 +308,6 @@ div.everything
   display: none !important;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* The Footer at every page */
 div.footer
 {
@@ -324,7 +358,6 @@ div.homeMiddleSection
   text-align: center;
   
   color: white;
-  font-size: 60px;
   border-bottom: 2px solid white;
 }
 
@@ -444,7 +477,7 @@ div.projectName
   text-align: center;
   
   color: white;
-  font-size: 60px;
+  
   border-bottom: 2px solid white;
 }
 
@@ -486,7 +519,7 @@ p.bio
 }
 
 /* Creates a divider between sections */
-h1.aboutSectionHeader
+h2.aboutSectionHeader
 {
   height: 7vh;
   max-width: 100%;
@@ -497,7 +530,7 @@ h1.aboutSectionHeader
   text-align: center;
   
   color: white;
-  font-size: 40px;
+  
   border-bottom: 2px solid white;
 }
 
@@ -575,7 +608,6 @@ h1.projectHeader
   text-align: center;
   
   color: white;
-  font-size: 60px;
   border-bottom: 2px solid white;
 }
 
@@ -590,7 +622,6 @@ h2.projectSubHeader
   text-align: left;
   
   color: white;
-  font-size: 40px;
   border-bottom: 2px solid white;
 }
 
