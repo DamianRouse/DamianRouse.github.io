@@ -831,7 +831,7 @@ div.projectDetailsSide
   margin-bottom: 0.1em;
 }
 
-.tocListElement a
+.tocListElementLink
 {
   text-decoration: none;
 }
@@ -854,7 +854,7 @@ div.projectDetailsSide
   text-decoration: inherit;
 }
 
-.tocListElement:hover .tocListElement a
+.tocListElement:hover .tocListElementLink
 {
   text-decoration: underline;
 }
