@@ -563,7 +563,7 @@ table.experienceTable, .experienceTable th, .experienceTable td
 /====================*/
 
 
-/* Creates a divider between sections */
+/* Creates a header for a project */
 h1.projectHeader
 {
   height: 10vh;
@@ -579,6 +579,7 @@ h1.projectHeader
   border-bottom: 2px solid white;
 }
 
+/* Creates a holder for the project's main image */
 div.projectBigImageHolder
 {
   height: auto;
@@ -594,6 +595,7 @@ div.projectBigImageHolder
   border: 2px solid white;
 }
 
+/* Scales the main image itself */
 .projectBigImageHolder img
 {
   display: block;
@@ -607,6 +609,7 @@ div.projectBigImageHolder
   object-fit: fill;
 }
 
+/* Section that holds the rest of the project information */
 div.projectBodyHolder
 {
   height: auto;
@@ -622,6 +625,7 @@ div.projectBodyHolder
   border: 2px solid white;
 }
 
+/* Table of contents */
 div.toc
 {
   display: table;
@@ -632,6 +636,7 @@ div.toc
   
 }
 
+/* Invisible toggle for Table of Contents */
 input.tocToggleCheckbox
 {
   display: inline !important;
@@ -640,51 +645,61 @@ input.tocToggleCheckbox
   z-index: -1;
 }
 
+/* holder for Table of Contents Title */
 .toc .tocTitle
 {
   text-align: center;
   display: block;
 }
 
-.toc .tocHeader
+/* Header for Table of Contents Title */
+.toc h2.tocHeader
 {
   display:inline;
   border: 0;
   font-size:100%;
 }
 
+/* Span after title */
 .toc .tocToggleSpan
 {
   font-size: 94%;
 }
 
+/* Adds contents to span */
 .toc .tocToggleSpan::before
 {
   content: ' [';
 }
 
+/*Adds contents to span */
 .toc .tocToggleSpan::after
 {
   content: ']';
 }
 
-.toc .tocToggleCheckbox::not(:checked) + .tocTitle
-.tocToggleLabel::after
+/* the center text after the title */
+.toc .tocToggleLabel
+{
+  cursor: point;
+  color: white;
+}
+
+/* If the toggle checkbox isn't checked, the label will read hide */
+.toc .tocToggleCheckbox::not(:checked) + 
+.tocTitle .tocToggleLabel::after
 {
   content: 'hide';
 }
 
+/* If the toggle checkbox is checked, the label will read show */
 .toc .tocToggleCheckbox:checked + 
 .tocTitle .tocToggleLabel::after
 {
   content: 'show';
 }
 
-.toc .tocToggleLabel
-{
-  cursor: point;
-  color: white;
-}
+
 
 .toc ul
 {
