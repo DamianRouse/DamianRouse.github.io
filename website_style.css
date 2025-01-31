@@ -630,8 +630,8 @@ div.projectBodyHolder
 div.projectDetailsSide
 {
   float: right;
-  width: 15%;
-  min-width: 200px;
+  max-width: 15vw;
+  min-width: 10vw;
   min-height: 30vh;
   box-sizing: border-box;
   
