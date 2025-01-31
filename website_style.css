@@ -661,19 +661,19 @@ input.tocToggleCheckbox
 }
 
 /* Span after title */
-.toc .tocToggleSpan
+.tocToggleSpan
 {
   font-size: 94%;
 }
 
 /* Adds contents to span */
-.toc .tocToggleSpan::before
+.tocToggleSpan::before
 {
   content: ' [';
 }
 
 /*Adds contents to span */
-.toc .tocToggleSpan::after
+.tocToggleSpan::after
 {
   content: ']';
 }
