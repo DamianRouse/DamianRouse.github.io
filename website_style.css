@@ -699,7 +699,10 @@ div.projectBodyHolder
   content: 'show';
 }
 
-
+.tocToggleLabel:hover
+{
+  text-decoration: underline;
+}
 
 .toc ul
 {
