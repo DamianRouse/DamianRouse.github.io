@@ -681,7 +681,7 @@ input.tocToggleCheckbox
 /* the center text after the title */
 .toc .tocToggleLabel
 {
-  cursor: point;
+  cursor: pointer;
   color: white;
 }
 
