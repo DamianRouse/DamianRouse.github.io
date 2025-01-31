@@ -694,8 +694,7 @@ div.projectBodyHolder
 }
 
 /* If the toggle checkbox is checked, the label will read show */
-.tocToggleCheckbox:checked + 
-.tocTitle .tocToggleLabel::after
+.tocToggleCheckbox:checked + .tocTitle .tocToggleLabel::after
 {
   content: 'show';
 }
