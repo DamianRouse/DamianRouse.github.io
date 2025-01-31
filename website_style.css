@@ -724,7 +724,7 @@ div.projectBodyHolder
   text-align:start;
 }
 
-.toc li
+.tocListElement
 {
   display: list-item;
   margin-bottom: 0.1em;
@@ -751,4 +751,9 @@ div.projectBodyHolder
 {
   display: table-cell;
   text-decoration: inherit;
+}
+
+.tocListElement:hover tocListElement..a
+{
+  text-decoration: underline;
 }
