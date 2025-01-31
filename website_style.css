@@ -361,7 +361,8 @@ div.homeMiddleSection
 /* Creates a divider between sections */
 .sectionHeader
 {
-  height: 10vh;
+  height: auto;
+  min-height: 10vh;
   max-width: 100%;
   margin: 1vh 0;
   display: block;
