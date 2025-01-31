@@ -724,6 +724,17 @@ div.projectDetailsSide
   color: white;
   
   border: 3px solid white;
+  
+  font-size: 105%;
+}
+
+.projectDetailsSide p
+{
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+  
+  font-size: 95%;
 }
 
 
