@@ -637,7 +637,7 @@ div.projectBodyHolder
   
   color: white;
   /* background-color: rgba(19, 1, 1, 0.9); */
-  border: 2px solid white;
+  /* border: 2px solid white;*/
 }
 
 
@@ -658,7 +658,7 @@ div.projectDetailsSide
   margin: 1vh 2vw;
   
   text-align: center;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   
   color: white;
 }
