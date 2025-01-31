@@ -735,30 +735,30 @@ div.projectBodyHolder
   margin-bottom: 0.1em;
 }
 
-.toc li a
+.tocListElement a
 {
   text-decoration: none;
 }
 
-.toc .tocNumber
+.tocNumber
 {
   color: white;
   padding-left: 0;
   padding-right: 0.5em;
 }
 
-.toc .tocText
+.tocText
 {
   color: white;
 }
 
-.toc .tocNumber, .toc .tocText
+.tocNumber, .tocText
 {
   display: table-cell;
   text-decoration: inherit;
 }
 
-.tocListElement:hover .tocListElement.a
+.tocListElement:hover .tocListElement a
 {
   text-decoration: underline;
 }
