@@ -625,6 +625,100 @@ div.projectBodyHolder
   border: 2px solid white;
 }
 
+
+/* Side details stuff */
+div.projectDetailsSide
+{
+  float: right;
+  width: 15%;
+  min-width: 200px;
+  min-height: 30vh;
+  box-sizing: border-box;
+  
+  padding: 3px;
+  margin: 1vh 2vw;
+  
+  text-align: center;
+  border: 2px solid white;
+}
+
+/* Creates a element that can go side by side, have a fixed size, and can be centered */
+.projectDetailsTypeHolder
+{
+  /* height: 30vh;
+  max-width:  30%;*/
+  height: auto;
+  width: 333px;
+  display:inline-block;
+  
+  padding: 0 1vw;
+  margin: auto;
+  margin-bottom: 1vh;
+  border-radius: 4px;
+  
+  /* border: 2px solid blue; debug */  
+}
+
+/* Creates a link with no background nor text decoration */
+.projectDetailsTypeHolder a
+{
+  width: 100%;
+  height: auto;
+  
+  word-wrap: break-word;
+  background: none;
+  text-decoration: none;
+}
+
+/* Creates a holder with a fixed size for an image */
+.pdtImageHolder
+{
+  width: 100%;
+  height: 200px;
+  
+  text-align: center;
+  
+  background-color: rgba(19, 1, 1, 0.9);
+}
+
+/* Creates an image that will fill whatever element it is put inside */
+.pdtImage
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  margin: auto;
+  border: 0;
+  vertical-align: middle;
+  overflow: clip;
+  object-fit: fill;
+}
+
+/* Creates a section for the name where its background can be recolored */
+.pdtDivider
+{
+  width: 100%;
+  display: block;
+  
+  padding: 15px;
+  
+  text-align: center;
+  word-wrap: break-word;
+  
+  background-color: #101218;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
 /* Table of contents */
 .toc
 {
