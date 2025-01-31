@@ -654,15 +654,16 @@ div.projectDetailsSide
   min-height: 30vh;
   box-sizing: border-box;
   
+  padding: 0px;
   margin: 1vh 2vw;
   
   text-align: center;
   border: 2px solid white;
   
-  
+  color: white;
 }
 
-.projectDetailsSide a
+.pdsLink
 {
   text-decoration: none;
   color: blue;
