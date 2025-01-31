@@ -688,8 +688,7 @@ div.projectBodyHolder
 }
 
 /* If the toggle checkbox isn't checked, the label will read hide */
-.tocToggleCheckbox::not(:checked) + 
-.tocTitle .tocToggleLabel::after
+.tocToggleCheckbox:not(:checked) + .tocTitle .tocToggleLabel::after
 {
   content: 'hide';
 }
