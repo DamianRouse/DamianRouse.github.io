@@ -480,7 +480,8 @@ div.projectName
 /* Creates a divider between sections */
 .aboutHeader
 {
-  height: 10vh;
+  height: auto;
+  min-height: 10vh;
   max-width: 100%;
   margin: 1vh 0;
   display: block;
@@ -611,7 +612,8 @@ table.experienceTable, .experienceTable th, .experienceTable td
 /* Creates a header for a project */
 h1.projectHeader
 {
-  height: 10vh;
+  height: auto;
+  min-height: 10vh;
   max-width: 100%;
   margin: 1vh 0;
   display: block;
@@ -625,7 +627,8 @@ h1.projectHeader
 
 h2.projectSubHeader
 {
-  height: 5vh;
+  height: auto;
+  min-height: 5vh;
   max-width: 100%;
   margin: 1vh 0;
   display: flow-root;
