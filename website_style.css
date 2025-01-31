@@ -686,14 +686,14 @@ div.toc
 }
 
 /* If the toggle checkbox isn't checked, the label will read hide */
-.toc .tocToggleCheckbox::not(:checked) + 
+.tocToggleCheckbox::not(:checked) + 
 .tocTitle .tocToggleLabel::after
 {
   content: 'hide';
 }
 
 /* If the toggle checkbox is checked, the label will read show */
-.toc .tocToggleCheckbox:checked + 
+.tocToggleCheckbox:checked + 
 .tocTitle .tocToggleLabel::after
 {
   content: 'show';
