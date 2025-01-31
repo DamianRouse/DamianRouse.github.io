@@ -640,6 +640,9 @@ div.projectDetailsSide
   
   text-align: center;
   border: 2px solid white;
+  
+  text-decoration: none;
+  color: blue;
 }
 
 /* Creates a holder with a fixed size for an image */
