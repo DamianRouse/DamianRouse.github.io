@@ -180,9 +180,9 @@ li.navListItem, li.dropdown
 
 @media (max-width: 500px) 
 {
-  li.navListItem
+  li.navListItem a
   {
-    width: 60px;
+    padding: 10px;
   }
 }
 
