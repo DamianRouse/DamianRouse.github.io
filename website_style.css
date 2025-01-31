@@ -662,3 +662,35 @@ input.tocToggleCheckbox
   cursor: point;
   color: white;
 }
+
+.toc ul
+{
+  list-style: none;
+  margin: 0.3em;
+  padding: 0;
+  text-align:start;
+}
+
+.toc li
+{
+  display: list-item;
+  margin-bottom: 0.1em;
+}
+
+.toc .tocNumber
+{
+  color: blue;
+  padding-left: 0;
+  padding-right: 0.5em;
+}
+
+.toc .tocText
+{
+  color: blue;
+}
+
+.toc .tocNumber, .toc .tocText
+{
+  display: table-cell;
+  text-decoration: inherit;
+}
