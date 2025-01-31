@@ -610,7 +610,7 @@ div.projectBigImageHolder
 div.projectBodyHolder
 {
   height: auto;
-  min-height: 40vh;
+  min-height: 100vh;
   max-width: 100%;
   box-sizing: border-box;
   
@@ -626,7 +626,7 @@ div.toc
 {
   display: table;
   
-  padding: 7px;
+  padding: 1vh 2vw;
   border-radius: 4px;
   border: 2px solid white;
   
