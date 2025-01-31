@@ -758,7 +758,7 @@ div.projectBodyHolder
   text-decoration: inherit;
 }
 
-.tocListElement:hover tocListElement.a
+.tocListElement:hover .tocListElement.a
 {
   text-decoration: underline;
 }
