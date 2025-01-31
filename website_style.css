@@ -715,6 +715,11 @@ input.tocToggleCheckbox
   margin-bottom: 0.1em;
 }
 
+.toc li a
+{
+  text-decoration: none;
+}
+
 .toc .tocNumber
 {
   color: blue;
