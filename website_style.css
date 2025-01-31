@@ -630,7 +630,8 @@ div.projectBodyHolder
 {
   display: table;
   
-  padding: 1vh 2vw;
+  padding: 3px;
+  margin: 1vh 2vw;
   border-radius: 4px;
   border: 2px solid white;
   
