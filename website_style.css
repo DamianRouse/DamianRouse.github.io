@@ -178,14 +178,6 @@ li.navListItem, li.dropdown
   float: left;
 }
 
-@media (max-width: 500px) 
-{
-  li.navListItem a
-  {
-    padding: 10px;
-  }
-}
-
 /* Style the navigation buttons and Dropdown Button */
 li.navListItem a, .dropbtn 
 {
@@ -197,6 +189,14 @@ li.navListItem a, .dropbtn
   text-align: center;
   text-decoration: none; /* remove underline */
   /* background-color: #dddddd; */
+}
+
+@media (max-width: 500px) 
+{
+  li.navListItem a, .dropbtn
+  {
+    padding: 10px;
+  }
 }
 
 li.navListItem:first-child
