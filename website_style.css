@@ -178,6 +178,14 @@ li.navListItem, li.dropdown
   float: left;
 }
 
+@media (max-width: 500px) 
+{
+  li.navListItem
+  {
+    width: 60px;
+  }
+}
+
 /* Style the navigation buttons and Dropdown Button */
 li.navListItem a, .dropbtn 
 {
