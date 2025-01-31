@@ -579,6 +579,21 @@ h1.projectHeader
   border-bottom: 2px solid white;
 }
 
+h2.projectSubHeader
+{
+  height: 10vh;
+  max-width: 100%;
+  margin: 1vh 0;
+  display: block;
+  box-sizing:border-box;
+  
+  text-align: center;
+  
+  color: white;
+  font-size: 60px;
+  border-bottom: 2px solid white;
+}
+
 /* Creates a holder for the project's main image */
 div.projectBigImageHolder
 {
@@ -624,6 +639,10 @@ div.projectBodyHolder
   /* background-color: rgba(19, 1, 1, 0.9); */
   border: 2px solid white;
 }
+
+
+
+
 
 
 /* Side details stuff */
@@ -795,19 +814,6 @@ div.projectDetailsSide
   display: none;
 }
 
-/*
-.toc:hover .tocUnsortedList
-{
-  display:none;
-}*/
-
-/*
-.tocToggleCheckbox:not(:checked) + .toc .tocToggleLabel::after
-{
-  content: 'hide';
-}
-*/
-
 .tocToggleLabel:hover
 {
   text-decoration: underline;
@@ -854,3 +860,5 @@ div.projectDetailsSide
 {
   text-decoration: underline;
 }
+
+
