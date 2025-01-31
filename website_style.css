@@ -650,11 +650,12 @@ input.tocToggleCheckbox
 {
   display:inline;
   border: 0;
+  font-size:100%;
 }
 
 .toc .tocToggleSpan
 {
-  
+  font-size: 94%;
 }
 
 .toc .tocToggleLabel
