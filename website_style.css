@@ -666,9 +666,15 @@ div.projectDetailsSide
 .pdsLink
 {
   text-decoration: none;
-  color: blue;
+  color: rgb(238, 182, 157);
   word-wrap: break-word;
-  background: none;
+  /* background: none; */
+  
+  background-image: url(/1.43/skins/Vector/resources/skins.vector.styles.legacy/images/link-external-small-ltr-progressive.svg?fb64d);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 0.857em;
+  padding-right: 1em;
 }
 
 /* Creates a holder with a fixed size for an image */
