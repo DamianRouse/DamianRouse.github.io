@@ -339,6 +339,11 @@ div.homeMiddleSection
   /* border: 2px solid green; debug */
 }
 
+.homeMiddleSection p
+{
+  font-size: 60px;
+}
+
 /*====================/
 / Portfolio Classes
 /====================*/
