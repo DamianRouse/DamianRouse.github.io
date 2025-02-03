@@ -108,6 +108,73 @@ span
 
 
 
+
+/*====================/
+/ SiteWide Classes
+/====================*/
+div.everything
+{
+  height: auto;
+  width:auto;
+  
+  background: url('/Misc/7178994-1024x576.png') no-repeat center fixed;
+  background-size: cover;
+}
+
+/*Creates a large section with background visible on the sides */
+.rest
+{
+  height: auto;
+  min-height: 90vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  
+  margin: 0 2vw;
+  padding: 1vh 2vw;
+  
+  color: white;
+  background-color: rgba(19, 1, 1, 0.9);
+  border: 2px solid white;
+}
+
+.mainSection {
+  height: 90%;
+  width:100%;
+  text-align: center;
+ 
+
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+  color: white;
+  background-image: url('/Misc/7178994-1024x576.png');
+  text-align: center;
+}
+
+.hidden
+{
+  display: none !important;
+}
+
+/* The Footer at every page */
+div.footer
+{
+  height: 5vh;
+  max-width: 100%;
+  
+  border-top: 1px solid grey;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 20px;
+  
+  background-color: black;
+  color: white;
+}
+
 /*====================/
 /Navigation Bar Style
 /====================*/
@@ -264,71 +331,6 @@ li.navListItem a:hover, .dropdown:hover .dropbtn
   background-color: rgba(100, 0, 0, 0.4);
 }
 
-/*====================/
-/ SiteWide Classes
-/====================*/
-div.everything
-{
-  height: auto;
-  width:auto;
-  
-  background: url('/Misc/7178994-1024x576.png') no-repeat center fixed;
-  background-size: cover;
-}
-
-/*Creates a large section with background visible on the sides */
-.rest
-{
-  height: auto;
-  min-height: 90vh;
-  max-width: 100%;
-  box-sizing: border-box;
-  
-  margin: 0 2vw;
-  padding: 1vh 2vw;
-  
-  color: white;
-  background-color: rgba(19, 1, 1, 0.9);
-  border: 2px solid white;
-}
-
-.mainSection {
-  height: 90%;
-  width:100%;
-  text-align: center;
- 
-
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x:hidden;
-  color: white;
-  background-image: url('/Misc/7178994-1024x576.png');
-  text-align: center;
-}
-
-.hidden
-{
-  display: none !important;
-}
-
-/* The Footer at every page */
-div.footer
-{
-  height: 5vh;
-  max-width: 100%;
-  
-  border-top: 1px solid grey;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 20px;
-  
-  background-color: black;
-  color: white;
-}
 
 /*====================/
 / Index Classes
