@@ -181,7 +181,7 @@ div.footer
 /* set banner sizes and properties */
 div.banner
 {
-  height: 10vh;
+  min-height: 10vh;
   max-width: 100%;
   display:  block;
   
