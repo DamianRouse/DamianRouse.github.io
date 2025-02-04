@@ -931,3 +931,67 @@ div.projectDetailsSide
 }
 
 
+
+/* project images */
+/* Creates a element that can go side by side, have a fixed size, and can be centered */
+.projectLeftSideImageBlock
+{
+  /* height: 30vh;
+  max-width:  30%;*/
+  height: auto;
+  width: 333px;
+  float: left;
+  clear: left;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid white;
+  border-bottom: 0;
+  text-align: center;
+  
+  margin: 40px 1em 1em 40px;
+  direction: ltr;
+  color: white;
+  
+  border-radius: 4px;
+  
+  padding: 2px;
+}
+
+/* Creates a holder with a fixed size for an image */
+.projectSideImageHolder
+{
+  width: 100%;
+  height: 200px;
+  
+  text-align: center;
+  
+  background-color: rgba(19, 1, 1, 0.9);
+}
+
+/* Creates an image that will fill whatever element it is put inside */
+.projectSideImage
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  margin: auto;
+  border: 0;
+  vertical-align: middle;
+  overflow: clip;
+  object-fit: fill;
+}
+
+/* Creates a section for the name where its background can be recolored */
+.projectSideImageDescription
+{
+  width: 100%;
+  display: block;
+  
+  padding: 15px;
+  
+  text-align: center;
+  word-wrap: break-word;
+  
+  background-color: #101218;
+  color: white;
+}
