@@ -934,12 +934,16 @@ div.projectDetailsSide
   text-decoration: inherit;
 }
 
-.tocListElement:hover .tocListElementLink
+.tocListElementLink:hover
 {
   text-decoration: underline;
 }
 
-
+/*
+.tocListElement:hover .tocListElementLink
+{
+  text-decoration: underline;
+} */
 
 
 
