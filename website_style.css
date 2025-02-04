@@ -899,9 +899,8 @@ div.projectDetailsSide
 .tocUnsortedListSub
 {
   list-style: none;
-  margin: 0;
-  margin-left: 2em;
-  margin-right: 0;
+  margin: 0 0 0 2em;
+  padding: 0;
   text-align: start;
 }
 
