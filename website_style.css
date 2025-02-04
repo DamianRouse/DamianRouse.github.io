@@ -1003,7 +1003,7 @@ div.projectDetailsSide
   
   border: 1px solid white;
   overflow: clip;
-  width: 200px;
+  /* width: 200px; */
   /* object-fit: fill; */
 }
 
