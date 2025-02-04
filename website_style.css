@@ -947,7 +947,7 @@ div.projectDetailsSide
   border-bottom: 0;
   text-align: center;
   
-  margin: 3vh 1vw 3vw 1vh;
+  margin: 3vh 3vw 1vh 1vw;
   direction: ltr;
   color: white;
   
@@ -955,6 +955,29 @@ div.projectDetailsSide
   
   padding: 2px;
 }
+
+.projectRightSideImageBlock
+{
+  /* height: 30vh;
+  max-width:  30%;*/
+  height: auto;
+  width: 333px;
+  float: right;
+  clear: right;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid white;
+  border-bottom: 0;
+  text-align: center;
+  
+  margin: 3vh 1vw 1vh 3vw;
+  direction: ltr;
+  color: white;
+  
+  border-radius: 4px;
+  
+  padding: 2px;
+}
+
 
 /* Creates a holder with a fixed size for an image */
 .projectSideImageHolder
