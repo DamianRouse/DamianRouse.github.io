@@ -896,6 +896,15 @@ div.projectDetailsSide
   text-align:start;
 }
 
+.tocUnsortedListSub
+{
+  list-style: none;
+  margin: 0;
+  margin-left: 2em;
+  margin-right: 0;
+  text-align: start;
+}
+
 .tocListElement
 {
   display: list-item;
@@ -929,6 +938,22 @@ div.projectDetailsSide
 {
   text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
