@@ -960,7 +960,10 @@ div.projectDetailsSide
 .projectSideImageHolder
 {
   width: 100%;
-  height: 200px;
+  height: 100%;
+  border: 0;
+  display: block;
+  position: relative;
   
   text-align: center;
   
@@ -971,14 +974,14 @@ div.projectDetailsSide
 .projectSideImage
 {
   display: block;
-  width: 100%;
-  height: 100%;
-  
-  margin: auto;
-  border: 0;
+  max-width: 100%;
+  height: auto;
   vertical-align: middle;
+  
+  border: 1px solid white;
   overflow: clip;
-  object-fit: fill;
+  width: 200px;
+  /* object-fit: fill; */
 }
 
 /* Creates a section for the name where its background can be recolored */
@@ -987,11 +990,12 @@ div.projectDetailsSide
   width: 100%;
   display: block;
   
-  padding: 15px;
+  padding: 6px;
+  line-height: 1.4em;
   
-  text-align: center;
+  text-align: start;
   word-wrap: break-word;
   
-  background-color: #101218;
+  background-color: rgba(0,0,0,0);
   color: white;
 }
