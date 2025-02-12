@@ -157,18 +157,18 @@
       </div>
       
       <p> Unfortunately, while modding and coding are directly supported by Tabletop, many of the tools are outdated and designed for a stationary environment. As such, a series of setup is neccessary to get modding in an workable enough spot, and even further creativity is needed to allow for completely dynamic or reusuable code.  </p>
-      <p> The program used as a proper edittor for these projects is Atom. Both Atom and its configuration that allow for directly interacting with Tabletop are no longer supported anymore. </p>
+      <p> The program used as a proper edittor for these projects is Atom. Both Atom and its configuration that allow for directly interacting with Tabletop are no longer being updated. </p>
       
       <div class="clear"></div>
       <h2 class="projectSubHeader" id="hiw"><b>Projects and Workarounds</b></h2>
-      <h3 id="Windows"> Dynamic Objects </h3>
+      <h3 id="Windows"> Transfering Objects </h3>
       
       <div class="projectLeftSideImageBlock">
         <div class="projectSideImageHolder">
           <img class="projectSideImage" src="Tabletop_Simulator/UniqueItem.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
-          <p>Tabletop with open file browser.</p>
+          <p>Example of object with unique ID.</p>
         </div>
       </div>
       
@@ -177,7 +177,7 @@
           <img class="projectSideImage" src="Tabletop_Simulator/scriptingzone.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
-          <p>Tabletop with open file browser.</p>
+          <p>Tabletop Scripting Zones.</p>
         </div>
       </div>
       
@@ -186,7 +186,7 @@
           <img class="projectSideImage" src="Tabletop_Simulator/finding_systems.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
-          <p>Tabletop with open file browser.</p>
+          <p>Search through all objects method.</p>
         </div>
       </div>
       
@@ -195,13 +195,14 @@
           <img class="projectSideImage" src="Tabletop_Simulator/bonds.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
-          <p>Tabletop with open file browser.</p>
+          <p>Example of objects connected through code.</p>
         </div>
       </div>
       
       
-      
-      <p> These projects will keep being developed whenever Tabletop is missing a feature that I could see means to improve, primarily in the UI department. The main goal for the future will be to add UI that speeds up commonly done actions as well to continue develope ways to use scripting outside the environment it's originally created it. </p>
+      <p> As stated before, Tabletop Simulation supports a stationary environment. This doesn't mean it's not full of moving objects that can't be changed from different conditions nor direct player interaction. It means Tabletop has sessions and tables completely attached to the objects it creates through an ID system. Every object on a table has a new ID for the table to keep track of it. This ID can be completely different when moved to a new table, making connected objects dissaciate and need means of finding each other again.</p>
+      <p> The intended way to attach objects to each other by code is to utilize Scripting Zones. By designating zones that are invisible without specific tools, code can be set to grab objects in the zone. On a table without moving elements, this is perfect. Areas can be set to gather objects, move objects, or various other things after hard coding them. This, however, breaks when moved to another table because like objects these have an ID that'll be made new once again. These are also physically seperated from physics, meaning moving them alongside things is difficult but not impossible. </p>
+      <p> The solution is to search all objects for a specific script unique to the object needing to be assosciate with. By doing this specifically with a delay function, all objects will be able to successfully load on new tables before connecting with one another through code. </p>
       
       <div class="clear"></div>
       <h3 id="Windows"> Save Data </h3>
@@ -217,7 +218,11 @@
       
       
       
-      <p> These projects will keep being developed whenever Tabletop is missing a feature that I could see means to improve, primarily in the UI department. The main goal for the future will be to add UI that speeds up commonly done actions as well to continue develope ways to use scripting outside the environment it's originally created it. </p>
+      <p> The hider is one of the obscure elements in Tabletop Simulation. Normally, to hide something from other players would involve hidden zones that are stationary and have to be set table to table. These can be moved through other tools and code means but leave the zone itself fully visible to all. Through code, there is an invisible hider component that can be attached to objects in the background. There are no flags nor any ui means that can be interacted with to utilize this property. A whole setup had to be done.</p>
+      <p> To successfully hide things through code, it must first be understood that UI elements attached to an object cannot be hidden by a hider. Only regular objects of any type can be altered by this.</p>
+      <p> Step one: Create a dynamic zone or platform that other objects can be set on to be granted a hider component.</p>
+      <p> Step two: Create a list that automaticly saves the ID of all objects with hiders. As hiders aren't included in normal object save properties, this list must exist to tell the table to reattach hiders to all objects that need to be hider. </p>
+      <p> Step three: Make an editor to allow the hider to component to be editted remotely through UI. </p>
       
       <div class="clear"></div>
       <h3 id="Windows"> UI </h3>
@@ -240,7 +245,7 @@
         </div>
       </div>
       
-      <p> These projects will keep being developed whenever Tabletop is missing a feature that I could see means to improve, primarily in the UI department. The main goal for the future will be to add UI that speeds up commonly done actions as well to continue develope ways to use scripting outside the environment it's originally created it. </p>
+      <p> Excluding the regular UI that is always present for every player regardless of table, UI can be attached to objects through the html editor. </p>
       
       <div class="clear"></div>
       <h3 id="Windows"> Global UI </h3>
@@ -272,7 +277,7 @@
         </div>
       </div>
       
-      <p> These projects will keep being developed whenever Tabletop is missing a feature that I could see means to improve, primarily in the UI department. The main goal for the future will be to add UI that speeds up commonly done actions as well to continue develope ways to use scripting outside the environment it's originally created it. </p>
+      <p> Adding new UI elements is done through the global properties. </p>
       
       <div class="clear"></div>
       <h3 id="Windows"> Hider </h3>
