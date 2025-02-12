@@ -160,6 +160,11 @@ div.everything
   display: none !important;
 }
 
+.clear 
+{
+  clear: both;
+}
+
 /* The Footer at every page */
 div.footer
 {
@@ -682,6 +687,7 @@ div.projectBodyHolder
   min-height: 100vh;
   max-width: 100%;
   box-sizing: border-box;
+  overflow: auto; 
   
   margin: 0;
   padding: 0;
