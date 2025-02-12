@@ -47,10 +47,113 @@
 
   <div class="rest">
     
-    <h1 class="projectHeader"><b>Tabletop Simulator Modding</b></h1>
+    <h1 class="projectHeader"><b>Tabletop Simulator Uploader Overlay</b></h1>
     
-    <p> There's nothing here yet.  </p>
+    
+    <div class="projectBigImageHolder">
+      <img src="/Tabletop_Simulator/overlay.PNG" alt="PlaceHoulder">
+    </div>
+    
+    <div class="projectBodyHolder">
       
+      <div class="projectDetailsSide">
+        <div class="pdtImageHolder">
+          <a href="/portfolio.html">
+          <img class="pdtImage" src="/Misc/blank.png" alt="PlaceHoulder">
+          </a>
+        </div>
+        <div class="pdtDivider">Links</div>
+        <a class="pdsLink" href="https://github.com/DamianRouse/DamianRouse.github.io"><b>No Github Yet</b></a>
+        <div class="pdtDivider">Details</div>
+        <p> <b>Project Length:</b> </p>
+        <p> 1 Week </p>
+        <p> <b>Last Worked On:</b> </p>
+        <p> 2025 </p>
+      </div>
+    
+    
+      <div class="toc" id="toc">
+        <input type="checkbox" role="button" class="tocToggleCheckbox" id="tocToggleCheckbox" style="display:none;" aria-label="Hide the table of Contents">
+        <div class="tocTitle" lang="en" dir="ltr">
+          <h2 class="tocHeader">Contents</h2>
+          <span class="tocToggleSpan">
+          <label class="tocToggleLabel" for="tocToggleCheckbox"></label>
+          </span>
+        </div>
+        <ul class="tocUnsortedList">
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Overview">
+            <span class="tocNumber">1</span>
+            <span class="tocText">Overview</span>
+            </a>
+          </li>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Details">
+            <span class="tocNumber">2</span>
+            <span class="tocText">Details</span>
+            </a>
+          </li>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#hiw">
+            <span class="tocNumber">3</span>
+            <span class="tocText">How it Works</span>
+            </a>
+          </li>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Problems">
+            <span class="tocNumber">4</span>
+            <span class="tocText">Problems</span>
+            </a>
+            <ul class="tocUnsortedListSub">
+              <li class="tocListElement">
+                <a class="tocListElementLink" href="#Windows">
+                <span class="tocNumber">4.1</span>
+                <span class="tocText">Windows 11</span>
+                </a>
+              </li>
+              <li class="tocListElement">
+                <a class="tocListElementLink" href="#Solution">
+                <span class="tocNumber">4.2</span>
+                <span class="tocText">Solution</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+      
+      <h2 class="projectSubHeader" id="Overview"><b>Overview</b></h2>
+      <p> This is a python solo project that aims to be a dynamic method of automatically uploading individual cards in the game Tabletop Simulator on the Steam Platform. This project is an entirely independent executable with UI elements to allow adjustments to accomodate different pc resolutions and layouts.  </p>
+      
+      <h2 class="projectSubHeader" id="Details"><b>Details</b></h2>
+      <p> Before explaining the parts of the project, details about Tabletop Simulator itself needs to be address. Tabletop Simulator is a game on Steam that allows people to play board games with others across the world. Many common board games have been remade in Tabletop and are easily accessible through it, including many custom ones or other various objects through the game's built-in upload system. This however has the drawback of requiring each individual piece needing to be uploaded to steam one at a time, which tends to turn into a lengthy process. My project aims to automate the uploading of cards specifically, as these tend to be most numerous. </p>
+      <p> As for the project itself, it is both a macro and an overlay. The macro part is the basis of the project. By pressing a single key on the keyboard, it goes through a series of predefined mouse and keyboard inputs until completing its operation. Where this differs from most commonplace macros is the entire reason why it's custom python rather than the numerous easy macro creation programs. It directly assesses its folder properties to be dynamic, further configured by region remapping to allow others to utilize this tool on different pc setups. This is made more clear and easier to adjust thanks to the overlay part of the project. UI elements remain directly on top of Tabletop Simulator itself to provide visual feedback and interfacing for those using this tool. </p>
+      
+      <h2 class="projectSubHeader" id="hiw"><b>How it works</b></h2>
+      <div class="projectLeftSideImageBlock">
+        <div class="projectSideImageHolder">
+          <img class="projectSideImage" src="Tabletop_Simulator/filebrowser.PNG" alt="Filebrowser">
+        </div>
+        <div class="projectSideImageDescription">
+          <p>Tabletop with open file browser.</p>
+        </div>
+      </div>
+      <p> To upload a card into Tabletop Simulator, several steps must be completed. Excluding making the asset or art itself, this creation process goes through spawning a custom card, finding the images to add to the card, uploading them to steam, and finally importing the finished card into the current Tabletop Simulator session. My project covers all of these steps after first being setup.</p>
+      <p> Setup </p>
+      <p> Setup is done after running both Tabletop and the tool. By using the <i>tkinter module</i> for its canvas and image functionality along with <i>pynput</i> to use the input for both keyboard and mouse, a user can access the visual interface of the tool. From there, they can configure specific placements where buttons will be to insure the macro works by directly dragging the regions around. </p>
+      <p> Run Process </p>
+      <p> Running the tool automatically moves the mouse to do the uploading process as if the user were doing it themselves. Spawning a custom card is easily done by two clicks at specific locations, followed by another to open up the file browser that is used to find the specific images for the card. This is where the benefits of a macro shine, by directly using the mouse it can select the filebrowser that will appear on top. It then proceeds to use specific mouse positions to select areas of the browser, mixing with the keyboard to successfully navigate through folders and files for the desired one. The rest is a matter of more specific clicks mixed with waiting to give everything time to load between steps. </p>
+      <p> End </p>
+      <p> The tool continues that loop until the folder holding all the images for cards are all uploaded. The number of images to be uploaded was calculated the moment the program was ran using the <i>sys module</i>. </p>
+      
+      <h2 class="projectSubHeader" id="Problems"><b>Problems</b></h2>
+      <h3 id="Windows"> Windows 11 </h3>
+      <p> Windows 11 throws a wrench into the how well this project can work for the sole introduction of groupings. A grouping in the file browser is a subfilter for organizing files. It adds tabs within the center area in attempt to make finding specific files for users easier. The effectiveness is irrelevant for the sake of a program, but these groups leave tabs that interrupt what can be considered the first element and counting for the program. What makes this problem even worse is that there is no keybind to disable this feature as there is for every other part of the fileborwser, and Windows 11 has a seperate configuration designated for file browsers opened by other programs, which by default contains groups and cannot be normally altered from the standard file browser pre-emptively. </p>
+      <h3 id="Solution"> Solution</h3>
+      <p> The solution to this problem is unfortunately not elegant and possibly even problematic for other variations of windows. By selecting the navigation bar, which is already a feature of this project, it is possible to cycle through the different elements of the file browser through keybinds. Only after properly recognizing the user's pc is using windows 11 and doing this, it is possible to select groups and disable them. The other option is to utilize the options brought up by right click, which is unfortunately not viable due to other programs commonly adding additional options to that menu. As it stands, this issue is not present after fixing it the first time and does not need addressing yet.</p>
+      
+    </div>
   </div>
   <div class="footer">
     2025 Damian Rouse
