@@ -1046,11 +1046,16 @@ div.projectDetailsSide
   display: block;
   
   padding: 6px;
-  line-height: 1.4em;
+  /* line-height: 1.4em; */
   
   text-align: start;
   word-wrap: break-word;
   
   background-color: rgba(0,0,0,0);
   color: white;
+}
+
+.projectSideImageDescription p
+{
+  margin: 0;
 }
