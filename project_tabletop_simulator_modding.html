@@ -205,24 +205,22 @@
       <p> The solution is to search all objects for a specific script unique to the object needing to be assosciate with. By doing this specifically with a delay function, all objects will be able to successfully load on new tables before connecting with one another through code. </p>
       
       <div class="clear"></div>
+      
+     
       <h3 id="Windows"> Save Data </h3>
       
       <div class="projectLeftSideImageBlock">
         <div class="projectSideImageHolder">
-          <img class="projectSideImage" src="Tabletop_Simulator/hider.PNG" alt="Filebrowser">
+          <img class="projectSideImage" src="Tabletop_Simulator/saveddata.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
           <p>Tabletop with open file browser.</p>
         </div>
       </div>
       
+       <p> Tabletop save system. </p>
       
-      
-      <p> The hider is one of the obscure elements in Tabletop Simulation. Normally, to hide something from other players would involve hidden zones that are stationary and have to be set table to table. These can be moved through other tools and code means but leave the zone itself fully visible to all. Through code, there is an invisible hider component that can be attached to objects in the background. There are no flags nor any ui means that can be interacted with to utilize this property. A whole setup had to be done.</p>
-      <p> To successfully hide things through code, it must first be understood that UI elements attached to an object cannot be hidden by a hider. Only regular objects of any type can be altered by this.</p>
-      <p> Step one: Create a dynamic zone or platform that other objects can be set on to be granted a hider component.</p>
-      <p> Step two: Create a list that automaticly saves the ID of all objects with hiders. As hiders aren't included in normal object save properties, this list must exist to tell the table to reattach hiders to all objects that need to be hider. </p>
-      <p> Step three: Make an editor to allow the hider to component to be editted remotely through UI. </p>
+     
       
       <div class="clear"></div>
       <h3 id="Windows"> UI </h3>
@@ -284,14 +282,18 @@
       
       <div class="projectLeftSideImageBlock">
         <div class="projectSideImageHolder">
-          <img class="projectSideImage" src="Tabletop_Simulator/saveddata.PNG" alt="Filebrowser">
+          <img class="projectSideImage" src="Tabletop_Simulator/hider.PNG" alt="Filebrowser">
         </div>
         <div class="projectSideImageDescription">
           <p>Tabletop with open file browser.</p>
         </div>
       </div>
       
-      <p> These projects will keep being developed whenever Tabletop is missing a feature that I could see means to improve, primarily in the UI department. The main goal for the future will be to add UI that speeds up commonly done actions as well to continue develope ways to use scripting outside the environment it's originally created it. </p>
+       <p> The hider is one of the obscure elements in Tabletop Simulation. Normally, to hide something from other players would involve hidden zones that are stationary and have to be set table to table. These can be moved through other tools and code means but leave the zone itself fully visible to all. Through code, there is an invisible hider component that can be attached to objects in the background. There are no flags nor any ui means that can be interacted with to utilize this property. A whole setup had to be done.</p>
+      <p> To successfully hide things through code, it must first be understood that UI elements attached to an object cannot be hidden by a hider. Only regular objects of any type can be altered by this.</p>
+      <p> Step one: Create a dynamic zone or platform that other objects can be set on to be granted a hider component.</p>
+      <p> Step two: Create a list that automaticly saves the ID of all objects with hiders. As hiders aren't included in normal object save properties, this list must exist to tell the table to reattach hiders to all objects that need to be hider. </p>
+      <p> Step three: Make an editor to allow the hider to component to be editted remotely through UI. </p>
       
       <div class="clear"></div>
       <h2 class="projectSubHeader" id="Problems"><b>Future Plans</b></h2>
