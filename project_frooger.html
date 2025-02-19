@@ -3,250 +3,114 @@
 <head>
 <title>Damian Rouse Website</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
 <meta name="author" content="Damian Rouse">
 <meta name="description" content="Damian Rouse's Online Portfolio">
 <link rel="icon" href="/Misc/cropped-113.png">
+<link rel="stylesheet" href="website_style.css">
 
 <style>
-body
-{
-  height: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x:hidden;
-}
-
-
-ul
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li 
-{
-  float: left;
-}
-
-li a 
-{
-  font-size: 18px;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-li a:hover 
-{
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.whiteHover:hover
-{
-  background: rgba(255, 255, 255, 0.6);
-}
-
-
-
-
-.everything
-{
-  height: auto;
-  width:auto;
-  margin: 0;
-  padding: 0;
-}
-
-.mainSection {
-  height: 90%;
-  width:100%;
-  text-align: center;
-  background-color: black;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x:hidden;
-  color: black;
-  text-align: center;
-}
-
-.banner
-{
-  background-image: url('/Misc/7178994-1024x576.png');
-  background-color: black;
-  height: 25%;
-  color: crimson;
-  line-height: normal;
-  padding-bottom: 5%;
-}
-
-.columnRight
-{
-  padding-top: 4%;
-  padding-right: 3%;
-  display: inline-block;
-  position:relative;
-  float:right;
-}
-
-.columnLeft
-{
-  padding-top: 2%;
-  padding-left: 3%;
-  display: inline-block;
-  position:relative;
-  float:left;
-}
-
-
-.imageDefault
-{
-  width:100%;
-  height:100%;
-}
-
-.rest
-{
-  height: 85%;
-  padding: 6%;
-  color: white;
-  background: rgba(19, 1, 1, 1);
-}
-
-
-.sectionHeader
-{
-  height: 10%;
-  color: white;
-  font-size: 60px;
-}
-    
-.sectionSub
-{
-  height: 10%;
-  color: white;
-  font-size: 20px;
-}
-    
-.columnHolder
-{
-  height: 10%;
-  color: white;
-  width: 100%;
-}
-
-.doubleColumnS
-{
-  height: 40%;
-  width: 40%;
-  display: inline-block;
-  padding-bottom: 5%;
-  font-size: 15px;
-  text-align: left;
-  vertical-align:top; 
-}
-
-.tripleColumnS
-{
-  height: 40%;
-  width: 30%;
-  display: inline-block;
-  padding-bottom: 5%;
-  font-size: 15px;
-  text-align: left;
-  vertical-align:top; 
-}
-    
-.quadColumnS
-{
-  height: 40%;
-  width: 22%;
-  display: inline-block;
-  padding-bottom: 5%;
-  font-size: 14px;
-  text-align: left;
-  vertical-align:top; 
-}
-
-.bottomSection
-{
-  border-top: 1px solid grey;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  padding-left: 3%;
-  background-color: black;
-  height: 10%;
-  color: white;
-}
-
-
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-
 </style>
+  
 </head>
 <body>
 
 <div class="everything">
+  
+  <div class="banner">
+    <!-- <div class="columnLeft">
+      <img class="topLeftImage" src="/Misc/Website_Logo.png" alt="Icon">
+    </div> --->
+    <div class="columnRight">
+      <ul class="navUnsortedList">
+        <li class="navListItem">
+          <a href="https://damianrouse.github.io/"><b>Home</b></a>
+        </li>
+        <li class="navListItem dropdown">
+          <a href="/portfolio" class="dropbtn">Portfolio</a>
+          <div class="dropdown-content">
+            <a href="/portfolio#C">C/C#/C++</a>
+            <a href="/portfolio#Excel">Excel/App Script</a>
+            <a href="/portfolio#Html">Html/CSS</a>
+            <a href="/portfolio#Lua">Lua</a>
+            <a href="/portfolio#Python">Python</a>
+          </div>
+        </li>
+        <li class="navListItem"> 
+          <a href="/about">About</a>
+        </li>
+        <li class="navListItem whiteHover">
+          <a href="/Misc/Resume_Tech.pdf"target="_blank"rel="noopener noreferrer"><b>RESUME</b></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
-
-  <div class="mainSection">
-
-    <div class="banner">
-      <div class="columnLeft">
-        <img class="imageDefault" src="/Misc/Website_Logo.png" alt="Icon">
+  <div class="rest">
+    
+    <h1 class="projectHeader"><b>Frooger</b></h1>
+    
+    <div class="projectBigImageHolder">
+      <img src="/Frooger/frooger3.PNG" alt="PlaceHoulder">
+    </div>
+    
+    <div class="projectBodyHolder">
+    
+      <div class="projectDetailsSide">
+        <div class="pdtImageHolder">
+          <a href="/portfolio.html">
+          <img class="pdtImage" src="/Misc/blank.png" alt="PlaceHoulder">
+          </a>
+        </div>
+        <div class="pdtDivider">Links</div>
+        <a class="pdsLink" href="https://github.com/DamianRouse/DamianRouse.github.io"><b>No Github Yet</b></a>
+        <div class="pdtDivider">Details</div>
+        <p> <b>Project Length:</b> </p>
+        <p> 1 Year </p>
+        <p> <b>Last Worked On:</b> </p>
+        <p> 2022-2023 </p>
       </div>
-      <div class="columnRight">
-        <ul>
-          <li>
-          <a href="https://damianrouse.github.io/"><b>Home</b>
-          </a>
+      
+      <div class="toc" id="toc">
+        <input type="checkbox" role="button" class="tocToggleCheckbox" id="tocToggleCheckbox" style="display:none;" aria-label="Hide the table of Contents">
+        <div class="tocTitle" lang="en" dir="ltr">
+          <h2 class="tocHeader">Contents</h2>
+          <span class="tocToggleSpan">
+          <label class="tocToggleLabel" for="tocToggleCheckbox"></label>
+          </span>
+        </div>
+        <ul class="tocUnsortedList">
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Overview">
+            <span class="tocNumber">1</span>
+            <span class="tocText">Overview</span>
+            </a>
           </li>
-          <li>
-          <a href="/portfolio">Portfolio
-          </a>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Details">
+            <span class="tocNumber">2</span>
+            <span class="tocText">Details</span>
+            </a>
           </li>
-          <li>
-          <a 
-          href="/about">About
-          </a>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Contributions">
+            <span class="tocNumber">3</span>
+            <span class="tocText">Contributions</span>
+            </a>
           </li>
-          <li class="whiteHover">
-          <a 
-          href="/Misc/Resume_Tech.pdf"
-          target="_blank"
-          rel="noopener noreferrer">
-          <b>RESUME</b>
-          </a>
+          <li class="tocListElement">
+            <a class="tocListElementLink" href="#Shaders">
+            <span class="tocNumber">4</span>
+            <span class="tocText">Shaders implemented</span>
+            </a>
           </li>
         </ul>
       </div>
-    </div>
-
-    <div class="rest">
-      <div class="sectionHeader">
-        <p><b>Frooger</b></p>
-      </div>
-      <div>
-         <img class="imageDefault" src="/Frooger/frooger3.PNG" alt="Icon">
-      </div>
-      <div class="sectionSub">
-        <p>A student project. A clone of frogger.</p>
-      </div>
+      
+      <h2 class="projectSubHeader" id="Overview"><b>Overview</b></h2>
+      
+      <p>A student project. A clone of frogger.</p>
+      
       <div class="columnHolder">
         <div class="doubleColumnS">
            <img class="imageDefault" src="/Frooger/Froogger.PNG" alt="Icon">
@@ -256,15 +120,12 @@ footer {
         </div>
       </div>
 
-
-
+      
     </div>
-
   </div>
 
-
-  <div class="bottomSection">
-    2023 Damian Rouse
+  <div class="footer">
+    2025 Damian Rouse
   </div>
 
 
